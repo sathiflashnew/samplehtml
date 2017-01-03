@@ -1,0 +1,25 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1":{
+				"text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt euismod ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean blandit bibendum sapien, a iaculis ante placerat pellentesque. Aliquam finibus tristique fermentum. Vestibulum quis mi sit amet nisi dictum congue. ",
+				"description" :""
+			} ,
+			"txtVar_2":{
+				"text" :"Aenean blandit bibendum sapien, a iaculis ante placerat pellentesque. Aliquam finibus tristique fermentum.",
+				"description" :""
+			} ,
+			"txtVar_3":{
+				"text" :"Aenean blandit bibendum sapien, a iaculis ante placerat pellentesque. Aliquam finibus tristique fermentum.",
+				"description" :""
+			} ,
+			
+			"transcript":{
+				"text" :["<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt euismod ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean blandit bibendum sapien, a iaculis ante placerat pellentesque. Aliquam finibus tristique fermentum. Vestibulum quis mi sit amet nisi dictum congue.</p>"],
+				"description" :""
+			}
+
+		}
+	]
+}

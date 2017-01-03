@@ -1,0 +1,29 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1":{
+				"text" :"Dough tag",
+				"description" :""
+			} ,
+			"txtVar_2":{
+				"text" :"Dough dolly ",
+				"description" :""
+			} ,
+			"txtVar_3":{
+				"text" :"Reports ",
+				"description" :""
+			} ,
+			"txtVar_4":{
+				"text" :"Dough tray  ",
+				"description" :""
+			} ,
+			
+			"transcript":{
+				"text" :["<p>Let’s take a look at the equipment you will be using while managing the dough. The most commonly used equipment include dough tags, dough dolly, reports, and dough trays.</p>"],
+				"description" :""
+			}
+
+		}
+	]
+}

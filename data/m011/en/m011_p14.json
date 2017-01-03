@@ -1,0 +1,16 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1":{
+				"text" :"The label on the dough tray indicates the size and date of the dough.",
+				"description" :""
+			} ,
+			"transcript":{
+				"text" :["<p>Look at the label to determine the size and date of the dough. For example, the date of manufacturing is written by the side of the “DM” mark. This label shows that the dough was made on April 5. It also shows that it is “Better by” or can be used through April 12.</p><p>The “2” in front of the Better By date indicates on which shift the dough was made: first, second, or third.</p>"],
+				"description" :""
+			}
+
+		}
+	]
+}

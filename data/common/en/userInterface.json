@@ -1,0 +1,238 @@
+{
+
+	"ExternalData": [
+		{
+			"glossaryTxt": {
+				"text": "<span></span>Glossary",
+				"description": ""
+			},
+			"resourcesTxt": {
+				"text": "<span></span>Resources",
+				"description": ""
+			},
+			"helpTxt": {
+				"text": "<span></span>Help",
+				"description": ""
+			},
+			"courseMenuTxt": {
+				"text": "<span></span>Course Menu",
+				"description": ""
+			},
+			"transcriptTxt": {
+				"text": "<span></span>Transcript",
+				"description": ""
+			},
+			"exitTxt": {
+				"text": "<span></span>Exit",
+				"description": ""
+			},
+			"exitInsTxt": {
+				"text": "Do you really want to exit this course?",
+				"alt_text": "You have not visited all screens in this course, and hence, your course completion status is “incomplete.”  Please click the <b>Main Menu</b> (at the upper-left corner) to see the screens that you still need to visit.<br>If you exit the course by clicking the <b>EXIT</b> button (at the upper-right corner), your progress will be saved. On your next visit, you can resume from where you left.",
+				"description": ""
+			},
+			"yesTxt": {
+				"text": "Yes",
+				"alt_text": "EXIT COURSE",
+				"description": ""
+			},
+			"noTxt": {
+				"text": "No",
+				"alt_text": "RESUME COURSE",
+				"description": ""
+			},
+			"yesTxt1": {
+				"text": "Yes",
+				"alt_text": "",
+				"description": ""
+			},
+			"noTxt1": {
+				"text": "No",
+				"alt_text": "",
+				"description": ""
+			},
+			"transcriptTitle": {
+				"text": "Transcript",
+				"description": ""
+			},
+			"feedTitle": {
+				"text": "FEEDBACK",
+				"description": ""
+			},
+			
+
+			"lmsbookmarkTxt": {
+				"text": "Would you like to continue from the page you visited in your last session? Click Yes to continue or click No to start from the first page.",
+				"description": ""
+			},
+			"courseInsTxt": {
+				"text": "The course is paused. Click <span class='icon-wrong'></span> to resume the course.",
+				"description": ""
+			},
+			"funFactTxt": {
+				"text": "Fun Fact",
+				"description": ""
+			},
+			"funFactCloseTxt": {
+				"text": "Close",
+				"description": ""
+			},
+			"audioTxt1": {
+				"text": "Audio on",
+				"description": ""
+			},
+			"audioTxt2": {
+				"text": "Audio off",
+				"description": ""
+			},
+			"helpNavNenu": {
+				"text": "MAIN MENU",
+				"description": ""
+			},
+			"helpNavNenuTxt": {
+				"text": "The main menu allows you to access other components such as the course menu, transcript, resources, glossary, and Help. Note that the course will be paused when the Main Menu is active.",
+				"description": ""
+			},
+			"helpFunFact": {
+				"text": "FUN FACT",
+				"description": ""
+			},
+			"helpFunFactTxt": {
+				"text": "This icon displays a fun fact.",
+				"description": ""
+			},
+			"sliderTxt": {
+				"text": "PROGRESS BAR",
+				"description": ""
+			},
+			"helpsliderTxt": {
+				"text": "The progress bar displays the proportion of the screen that has been viewed already.",
+				"description": ""
+			},
+			"audioTxt": {
+				"text": "AUDIO ON/OFF",
+				"description": ""
+			},
+			"helpAudioTxt": {
+				"text": "The audio button allows you to turn the audio on or off. ",
+				"description": ""
+			},
+			"playTxt": {
+				"text": "PLAY/PAUSE/REPLAY",
+				"description": ""
+			},
+			"helpPlayTxt": {
+				"text": "This button allows you to play, pause, or replay the animation on the screen.",
+				"description": ""
+			},
+			"nextTxt": {
+				"text": "NEXT",
+				"description": ""
+			},
+			"helpNextTxt": {
+				"text": "This arrow will take you to the next screen.",
+				"description": ""
+			},
+			"backTxt": {
+				"text": "BACK",
+				"description": ""
+			},
+			"helpBackTxt": {
+				"text": "This arrow will take you to the previous screen.",
+				"description": ""
+			},
+			"helpProgresTxt_1": {
+				"text": "Indicates the screens that have not been viewed",
+				"description": ""
+			},
+			"helpProgresTxt_2": {
+				"text": "Indicates the screens that are partially viewed",
+				"description": ""
+			},
+			"helpProgresTxt_3": {
+				"text": "Indicates the screens that have already been viewed",
+				"description": ""
+			},
+			"helpProgresTxt_4": {
+				"text": "Indicates the currently active screen that has been partially viewed",
+				"description": ""
+			},
+			"helpProgresTxt_5": {
+				"text": "Indicates the currently active screen that has been completely viewed",
+				"description": ""
+			},
+			"introInsTxt": {
+				"text": "Click the button to launch the course.",
+				"description": ""
+			},
+			"initTxt": {
+				"text": "LAUNCH",
+				"description": ""
+			},
+			"ExitTitleTxt": {
+				"text": "Exit",
+				"description": ""
+			},
+			"ExitTxt": {
+				"text": "This button allows you to exit the course. Be sure to exit the course only after completely viewing the course.",
+				"description": ""
+			},
+			"ConclTxt": {
+				"text": "The course completion status will be marked as ‘Complete’ only after you have visited every screen completely in the course.",
+				"description": ""
+			},
+			"NvTxt01": {
+				"text": "Course title",
+				"description": ""
+			},
+			"NvTxt02": {
+				"text": "Screen title",
+				"description": ""
+			},
+			"NvTxt03": {
+				"text": "The screen counter displays the current screen number and the total number of screens in a course.",
+				"description": ""
+			},
+			"NvTxt04": {
+				"text": "This arrow will take you to the next screen.",
+				"description": ""
+			},
+			"NvTxt05": {
+				"text": "This arrow will take you to the previous screen.",
+				"description": ""
+			},
+			"NvTxt06": {
+				"text": "This button allows you to play, pause, or replay the animation on the screen.",
+				"description": ""
+			},
+			"NvTxt07": {
+				"text": "The audio button allows you to turn the audio on or off.  ",
+				"description": ""
+			},
+			"NvTxt08": {
+				"text": "The runtime counter displays the time elapsed and the total duration of each screen. ",
+				"description": ""
+			},
+			"NvTxt09": {
+				"text": "The progress bar displays the proportion of the screen that has been viewed already.",
+				"description": ""
+			},
+			"NvTxt10": {
+				"text": "Main Menu",
+				"description": ""
+			},
+			"NvTxt11": {
+				"text": "The main menu allows you to access other useful components such as the course menu. ",
+				"description": ""
+			},
+			"NvTxt12": {
+				"text": "This icon displays a fun fact.",
+				"description": ""
+			},
+			"NvTxt13": {
+				"text": "The EXIT button allows you to exit the course. ",
+				"description": ""
+			}
+		}
+	]
+}

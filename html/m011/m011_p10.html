@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>HTML 5 Template Accordian</title>
+
+<!----------- Style Sheets-------------------------->
+
+<!--link rel="stylesheet" href="css/pages/m01_l01_p07.css" /-->
+<!----------- Script sheets-------------------------->
+
+</head>
+<body>
+<div class="pageWrapper" id="recap">
+  <div class="page_overlay"></div>
+  <div class="common_table">
+    <div class="common_table_Cell"> 
+      <!--   Slide 1  Start  -->
+      <div class="slide slide_01 animE1_0">
+        <p class="leading-Txt text_fl animE1_1"></p>
+        <ul class="list_style">
+        <li class="li_text-1 animE1_2 text_fl">1</li>
+        <li class="li_text-2 animE1_3 text_fl">1</li>
+        </ul>
+        <div class="img_cntnr"> <img  src="assets/image/m011/en/m011_p10_img_01.jpg"> </div>
+      </div>
+      <!--   Slide 1  End  --> 
+      <!-- Accord Slide -->
+      <div class="slide slide_02 animE1_4">
+        <p class="instrctn_txt"> Click each button to learn more. </p>
+        
+        <div id="accordian">
+          <ol class="accordian animE1_5">
+            <!--  Acc 01 Start -->
+            <li>
+              <div class="header hd1 Color-Chnge dflt_brdr_color" id="accord_1"> Header </div>
+              <div class="content" id="accord_content_1">
+                <div class="left_sctn">
+                  <p class="l1_item1" > Lorem ipsum dolor sit amet </p>
+                </div>
+                <div class="acco_img"></div>
+                <div class="clear"></div>
+              </div>
+            </li>
+            <!--  Acc 01 End --> 
+            <!--  Acc 02 Start -->
+            <li>
+              <div class="header hd2 Color-Chnge dflt_brdr_color" id="accord_2"> Header </div>
+              <div class="content" id="accord_content_2">
+                <p class="l1_item2" > Lorem ipsum dolor sit amet </p>
+                <div class="clear"></div>
+              </div>
+            </li>
+            <!--  Acc 02 End --> 
+            <!--  Acc 03 Start -->
+            <li>
+              <div class="header hd3 Color-Chnge dflt_brdr_color" id="accord_3"> Header </div>
+              <div class="content" id="accord_content_3">
+                <p class="l1_item3" > Lorem ipsum dolor sit amet </p>
+                <div class="clear"></div>
+              </div>
+            </li>
+            <!--  Acc 03 End -->
+          </ol>
+        </div>
+        
+      </div>
+      <!-- Accord Slide End --> 
+    </div>
+  </div>
+</div>
+<!--script  src="js/pages/m01_l01_p07.js"></script--> 
+<script>
+			controller.loadAssests();
+		</script>
+</body>
+</html>

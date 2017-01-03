@@ -1,0 +1,76 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1":{
+				"text" :"Here are the key learning points of this course:",
+				"description" :""
+			},
+			"txtVar_2":{
+				"text" :"Interact with everyone in a respectful way.",
+				"description" :""
+			},
+			"txtVar_3":{
+				"text" :"Papa John’s original dough is made of:",
+				"description" :""
+			},
+			"txtVar_4":{
+				"text" :"Sugar",
+				"description" :""
+			},
+			"txtVar_5":{
+				"text" :"Yeast",
+				"description" :""
+			},
+			"txtVar_6":{
+				"text" :"Flour",
+				"description" :""
+			},
+			"txtVar_7":{
+				"text" :"Oil",
+				"description" :""
+			},
+			"txtVar_8":{
+				"text" :"Water",
+				"description" :""
+			},
+			"txtVar_9":{
+				"text" :"Yeast causes the dough to proof.",
+				"description" :""
+			},
+			"txtVar_10":{
+				"text" :"Proper time and managed proofing retains the flavor of the original dough.",
+				"description" :""
+			},
+			"txtVar_11":{
+				"text" :"The key dough management tools are:",
+				"description" :""
+			},
+			"txtVar_12":{
+				"text" :"Dough trays",
+				"description" :""
+			},
+			"txtVar_13":{
+				"text" :"Reports ",
+				"description" :""
+			},
+			"txtVar_14":{
+				"text" :"Dough dollies",
+				"description" :""
+			},
+			"txtVar_15":{
+				"text" :"Dough tags",
+				"description" :""
+			},
+			"txtVar_16":{
+				"text" :"Salt",
+				"description" :""
+			},
+			"transcript":{
+				"text" :["<p>Here are the key learning points of this course. Papa John’s original dough is made of salt, sugar, yeast, flour, oil, and water. Yeast feeds on sugar and causes the dough to proof. Proper time and managed proofing retains the flavor of the original dough. Dough trays, reports, dough dollies, and dough tags are some of the key tools used for proper dough management.</p>"],
+				"description" :""
+			}
+
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1": {
+				"text": "Congratulations! You have now completed the course.",
+				"description": ""
+			} ,
+			"txtVar_2": {
+				"text": "Click <span class='page_exit'>EXIT</span> to quit the course.",
+				"description": ""
+			} ,
+			"txtVar_3": {
+				"text": "Note: Do not click <span class='icon-wrong'></span> and close the browser to exit, as your progress will not be saved.",
+				"description": ""
+			} ,
+			"txtVar_4": {
+				"text": "<p>You have not visited all screens in this course, and hence, your course completion status is 'incomplete'. Please click the Main Menu (at the upper-left corner) to see the screens that you still need to visit.</p>",
+				"description": ""
+			} ,
+			"txtVar_5": {
+				"text": "If you exit the course by clicking the <span class='page_exit'>EXIT</span> button (at the upper-right corner), your progress will be saved. On your next visit, you can resume from where you left.",
+				"description": ""
+			} ,
+			"txtVar_6": {
+				"text": "Note: Do not click <span class='icon-wrong'></span> and close the browser to exit, as your progress will not be saved.",
+				"description": ""
+			} ,
+			"transcript": {
+				"text": ["<p>You have not visited all screens in this course, and hence, your course completion status is 'incomplete'. Please click the Main Menu (at the upper-left corner) to see the screens that you still need to visit.</p>", "<p>Congratulations! You have now completed the course.</p><p>Click <strong>EXIT</strong> to quit the course.</p>"],
+				"description": ""
+			}
+		}
+	]
+}

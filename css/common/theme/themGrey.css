@@ -1,0 +1,293 @@
+header{
+	 border-color:#807673 transparent #b4a8a5 transparent;
+	 border-width: 3px 0 1px 0;
+	border-style:solid;}
+	 
+.lines-button {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.lines-button.minus span:before {
+    background: none repeat scroll 0 0 #807673;
+}
+.lines-button.minus span:after {
+    background: none repeat scroll 0 0 #807673;
+}
+.lines-button.minus span {
+    background: none repeat scroll 0 0 #807673;
+}
+
+.headerLeft .Papa_indicator{
+	color:#807673;
+}
+.CourseTitle-TT:before, .PageTitle-TT:before{
+	border-color:transparent transparent #807673 transparent;;
+	 
+}
+/*======================================*/
+.SH.minus:before {
+    background: none repeat scroll 0 0 #807673;
+}
+.SH.minus:after {
+    background: none repeat scroll 0 0 #807673;
+}
+.SH.minus {
+    background: none repeat scroll 0 0 #807673;
+}
+
+/*======================================*/
+
+.Shell_menu li a:hover{
+	color:#807673;}
+.Shell_menu li a span{
+	border-color: transparent transparent transparent #807673;
+}
+.ShellMenuWrapper ol li:hover:before, .ShellMenuWrapper ol li:hover a, .ShellMenuWrapper ol li.Active a, .ShellMenuWrapper ol li.Active:before {
+	color:#807673;}
+.ShellMenuWrapper ol li.Active:hover a,
+.ShellMenuWrapper ol li.Active:hover:before{
+	 color: #807673;	
+	}
+	
+/*======================================*/	
+
+.progress {
+    background-color:#807673;
+}
+
+.playButton:hover, .audioButton:hover {
+	 color:#fff;
+	 background:#807673;
+	 border: 1px solid #807673;}
+/*======================================*/	
+.exitPopupWrap:after {
+    background: none repeat scroll 0 0 #807673;
+}
+
+
+.exit li {
+	 background: none repeat scroll 0 0 #807673;}
+	 
+
+
+/*======================================*/
+
+.popWraper {
+    border-top: 3px solid #807673;
+}
+.popWraper .popHeader{
+	color:#807673;
+}
+/*======================================*/		 
+.back.icon-back:hover:before {
+   color:#807673;
+}
+	
+.next.icon-next:hover:before {
+   color:#807673;
+}
+
+
+/*======================================*/
+.SH.icon-papabadg {
+     color:#807673;
+}
+
+
+.SH.PRogress:after{
+	background:#807673;}
+
+
+/*======================================*/
+
+
+.glossList ul li h3 {
+    color: #807673;
+}
+
+.Glossary .alphbet_wraper li.active{
+	background:#807673;}
+	
+	
+.ShellResourseWrapper ul li:hover:before{
+	color:#807673;
+}
+.ShellResourseWrapper ul li a:hover{
+	color:#807673;
+}
+
+
+
+.Papa_indicator.icon-papabadg:before {
+	color:#807673;}
+	
+	
+.list_style li:before {
+	background:#807673}
+
+/*================
+Border, Text,  and Background
+==================================*/
+.Color-Chnge {
+	color:#807673;
+}
+.Solid-BG, .current, .current polygon, circle, .dotNav a.active  {
+	background:#807673;
+	fill:#807673;
+	stroke:#807673;
+}
+.papaSVG text, .papaSVG text tspan{
+	fill:#807673;}
+.Bordr-Color, .sequencList li.ui-draggable-dragging p, .sequencList li.ui-draggable-dragging {
+	border-color:#807673;
+}
+.selected{
+	background:#362f2d;
+}
+.drdn_border{
+	border-color:#575757;
+}
+.dflt_brdr_color:hover, .MCQRadio, .MCQRadioSelect, .MCQCheck, .MCQCheckSelect, .dflt_brdr_color.active:after, .InnerGlobalPopup:after, .active_btn, .active_btn:after  {
+	border-color:#807673;
+}
+.Bordr-Color:after {
+	border-color:#807673;
+}
+.dflt_brdr_color:hover .dflt_bg_color {
+	background:#807673;
+	color:#fff;
+}
+.MCQRadioSelect:after, .MCQCheckSelect:after {
+	background:#807673;
+}
+.Transparant-Bg {
+	background:rgba(186, 19, 26, .45)
+}
+.InitButton:hover {
+	background:#807673;
+}
+ .icon-fullyCompleted.HActive:before, .icon-partialcompleted.HActive:before, .active_btn, .Clicked:before {
+	color:#807673;
+}
+/*================
+intro page style
+==================================*/
+.Top-Left:before{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 19px 19px 0 0;
+	border-color: #807673 transparent transparent transparent;
+	content:"";
+	position:absolute;
+	left:0;
+	top:0;
+	display:block;
+}
+
+.Top-Right:before{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 19px 19px 0;
+	border-color: transparent #807673 transparent transparent;
+
+	content:"";
+	position:absolute;
+	right:0;
+	top:0;
+	display:block;
+}
+.Bottom-Left:before{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 19px 0 0 19px;
+	border-color: transparent transparent transparent #807673;
+	display:block;
+
+
+
+	content:"";
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+
+.Bottom-Right:before{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 19px 19px;
+	border-color: transparent transparent #807673 transparent;
+	display:block;
+
+
+
+
+	content:"";
+	position:absolute;
+	right:0;
+	bttom:0;
+}
+/** ============== **/
+.dialogue-box:before{border-color: transparent transparent #807673 transparent;}
+/** ============== **/
+/** ======chatbox arrow======== **/
+.chat_wrap .chat_box .content_chat:after {
+	 border-color: transparent #807673;
+}
+.chat_wrap .chat_box .content_chat1:after {
+	 border-color: transparent #807673;
+}
+.chat_wrap .chat_box .content_chat2:after {
+	 border-color: transparent #807673;
+}
+.chat_wrap .chat_box .content_chat3:after {
+	 border-color: transparent #807673;
+}
+/** ======chatbox arrow======== **/
+
+
+
+/** ======Fun Facts======== **/
+
+.FunFactBtn:hover{
+	background-color: #807673;
+	color:#fff;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+}
+
+/** ======Fun Facts======== **/
+
+/** ======Conclusion======== **/
+
+.conclusion1{
+	background:url(../../../assets/image/common/grey_conclusion2.png);
+	background-position:0 center;
+    background-repeat:no-repeat;
+    background-size:100% auto;
+}
+.conclusion2{
+	background:url(../../../assets/image/common/grey_conclusion1.png);
+	background-position:0 center;
+    background-repeat:no-repeat;
+    background-size:100% auto;
+}
+
+
+/** ======Conclusion======== **/
+
+
+/*from shell*/
+.ShellMenuWrapper ol li.Active:hover:before,.ShellMenuWrapper ol li.Active:hover a{
+	color: #6B514B;
+}
+/*from shell*/
+@media (min-width: 320px) and (max-width: 1024px){
+	.ShellMenuWrapper ol li:hover:before,.ShellMenuWrapper ol li a:hover,.ShellMenuWrapper ol li:hover a{
+		color:#6b514b;
+	}
+}

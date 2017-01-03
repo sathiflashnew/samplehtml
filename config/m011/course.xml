@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<course>
+	<config>
+		<pagePath data="html/" />
+		<mobilePrefix data="mob_" />
+		<coureTitle data="Hive" />
+		<audioPath data="assets/audio/" />
+		<commonaudioPath data="assets/audio/common/" />
+		<imagePath data="assets/image/" />
+		<videoPath data="assets/video/" />
+		<dataPath data="data/" />
+		<commonDataPath data="data/common/" />
+		<scriptPath data="js/" />
+		<cssPath data="css/" />
+		<maindata data="main.json"  />
+		<transcriptEnable data="true" />
+	</config>
+	<structure>
+		<module>
+			<page path="m011_p01.html" audio="m011_p01.mp3" data="m011_p01.json" styles="css/common/papa_intro.css" scripts="m011_p01.js" />
+			<page path="m011_p02.html" audio="m011_p02.mp3" data="m011_p02.json" styles="css/common/objectives.css" scripts="m011_p02.js" 
+			data-en="common/objective_img.png"
+			data-uk=""
+			data-cn=""
+			/>
+			<page path="m011_p03.html" audio="m011_p03.mp3" data="m011_p03.json" styles="m011_p03.css" scripts="m011_p03.js" 
+			data-en="m011_p03_img01.jpg, m011_p15_img_03.jpg"
+			data-uk=""
+			data-cn=""
+			/>
+			
+		    <page path="m011_p16.html" audio="m011_p16.mp3" data="m011_p16.json" styles="css/common/assessment.css,m011_p16.css" scripts="js/common/knowledegecheck.js" 
+			
+			/>
+           
+		</module>
+
+	</structure>
+</course>
+

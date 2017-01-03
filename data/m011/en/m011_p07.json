@@ -1,0 +1,24 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1":{
+				"text" :"Time and a managed proofing process ensure the unique Papa John’s taste of the original dough.",
+				"description" :""
+			} ,
+			"txtVar_2":{
+				"text" :"Newer dough that has not fully proofed has a bland taste and a dense texture.",
+				"description" :""
+			} ,
+			"txtVar_3":{
+				"text" :"Older dough, or dough that has been overproofed, tastes slightly sour and has a course texture.",
+				"description" :""
+			} ,
+			"transcript":{
+				"text" :["<p>Have you ever wondered how Papa John’s maintains the unique flavor of its original dough? It takes time and a managed proofing process for Papa John’s original dough to develop its unique Papa John’s taste that our customers love. </p><p>Time is important because newer dough that has not fully proofed tends to have a bland taste and a dense texture. </p><p>Older dough, or dough that has been overproofed, tends to taste slightly sour with a course texture.</p>"],
+				"description" :""
+			}
+
+		}
+	]
+}

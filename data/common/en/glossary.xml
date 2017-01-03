@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<data>
+	
+	<alphabet letter = "A">
+		<word><![CDATA[Advice givers]]></word>
+		<description><![CDATA[<p>Individuals who belittle the speaker by rushing in with a quick solution, when he or she might have been reflecting on the problem for some time.</p>]]></description>
+		<word><![CDATA[Annual Budget]]></word>
+		<description><![CDATA[<p>The cost allocated to run a restaurant for a year.</p>]]></description>
+		<word><![CDATA[Anomalies]]></word>
+		<description><![CDATA[<p> Days where the sales are abnormally low or high, and these days should be excluded from the PNS calculation.</p>]]></description>
+		<word><![CDATA[Auditory learners]]></word>
+		<description><![CDATA[<p> Learners who learn better through listening and speaking.</p>]]></description>
+		<word><![CDATA[Average Product Price (APP)]]></word>
+		<description><![CDATA[<p>Obtained by dividing the net sales by the number of products sold.</p>]]></description>
+		
+	</alphabet>
+	<alphabet letter = "B">
+		<word><![CDATA[Bad Order Report]]></word>
+		<description><![CDATA[<p>A report that notes the number of orders made but not given to the customers.</p>]]></description>
+		<word><![CDATA[Bad order]]></word>
+		<description><![CDATA[<p>An order that is made but does not reach customer.</p>]]></description>
+		<word><![CDATA[Baking screen]]></word>
+		<description><![CDATA[<p>A circular metal sheet used for baking food items.</p>]]></description>
+		<word><![CDATA[Barrier Phrases]]></word>
+		<description><![CDATA[<p>Words and phrases that can make a bad impression on the listener/customer.</p>]]></description>
+		<word><![CDATA[Behavioral interview]]></word>
+		<description><![CDATA[<p>An interview conducted to predict future behaviors of a candidate based on his/her past experiences.</p>]]></description>
+		<word><![CDATA[Big Four]]></word>
+		<description><![CDATA[<p>A checklist of four categories – People, Product, Service and Image – on the HIRV worksheet.</p>]]></description>
+		<word><![CDATA[BLAST]]></word>
+		<description><![CDATA[<p>A technique to deal with unhappy customers. The letters BLAST stand for Believe the customer, Listen, Apologize, Solve, and Thank them.</p>]]></description>
+		<word><![CDATA[Budget]]></word>
+		<description><![CDATA[<p>A roadmap to achieve financial targets.</p>]]></description>
+		<word><![CDATA[Build To]]></word>
+		<description><![CDATA[<p>Calculated as the ratio of 1.5 days of Projected Net Sales to the Target Prep Yield.</p>]]></description>
+		
+		
+	</alphabet>
+	<alphabet letter = "C">
+		<word><![CDATA[Cash Transaction Report]]></word>
+		<description><![CDATA[<p>A report that notes cash paid in and cash paid out, the category they were applied to, and the person who approved the transaction. </p>]]></description>
+		<word><![CDATA[Catch tray]]></word>
+		<description><![CDATA[<p>A tray used to catch extra ingredients while topping pizzas so that they can be reused.</p>]]></description>
+		<word><![CDATA[Coaching]]></word>
+		<description><![CDATA[<p> Refers to telling a trained team member what is being done incorrectly.</p>]]></description>
+		<word><![CDATA[Controllable costs]]></word>
+		<description><![CDATA[<p>Costs that are directly controlled by the manager of a restaurant.</p>]]></description>
+		<word><![CDATA[Core Value Planner Tool]]></word>
+		<description><![CDATA[<p>A tool used for time management at Papa John's.</p>]]></description>
+		<word><![CDATA[Coupon Redemption Report]]></word>
+		<description><![CDATA[<p>A report that records which coupons have been redeemed and how often.</p>]]></description>
+		<word><![CDATA[Cover tray]]></word>
+		<description><![CDATA[<p>A clean, sanitized tray used to prevent the dough from drying out.</p>]]></description>
+		<word><![CDATA[Crisis Management Scale]]></word>
+		<description><![CDATA[<p>A color-coded scale to help you visually define the type of crisis and how to respond to it.</p>]]></description>
+		<word><![CDATA[Crisis]]></word>
+		<description><![CDATA[<p>Any unexpected event that disrupts the operations of the restaurant.</p>]]></description>
+		<word><![CDATA[Cross-selling]]></word>
+		<description><![CDATA[<p>The process of selling additional products that complement the product already bought by a customer.</p>]]></description>
+		<word><![CDATA[Cross-stacking]]></word>
+		<description><![CDATA[<p>The method of arranging every alternate tray by rotating through 90 degrees.</p>]]></description>
+		<word><![CDATA[CSC]]></word>
+		<description><![CDATA[<p>The acronym for Customer Service Compliance – CSC is met if the delivery time is less than 35.5 minutes.</p>]]></description>
+		
+		
+	</alphabet>
+	<alphabet letter = "D">
+		<word><![CDATA[Date column]]></word>
+		<description><![CDATA[<p>The column in which the actual month and day on which a product was received, prepared, or placed on the makeline is entered. This is filled out at the same time as the initials column.</p>]]></description>
+		<word><![CDATA[Deli ticket]]></word>
+		<description><![CDATA[<p>The coupon used to follow up on orders in the absence of Point of Sale (POS) system.</p>]]></description>
+		<word><![CDATA[Dockers]]></word>
+		<description><![CDATA[<p>The tools used for reducing the amount of bubbles that form when the pizza, breadsticks, and cheesesticks are in the oven.</p>]]></description>
+		<word><![CDATA[Dough cutter]]></word>
+		<description><![CDATA[<p>A tool used to cut the dough for breadsticks.</p>]]></description>
+		<word><![CDATA[Dough dolly]]></word>
+		<description><![CDATA[<p>A low, flat, wheeled cart used for moving dough trays around the restaurant.</p>]]></description>
+		<word><![CDATA[Dough scraper]]></word>
+		<description><![CDATA[<p>A tool used to remove the dough balls from the dough trays.</p>]]></description>
+		<word><![CDATA[Dough screen]]></word>
+		<description><![CDATA[<p>A circular mesh on which dough skin is placed. The screens come in a variety of sizes, and you will need to match the dough size to the correct screen.</p>]]></description>
+		<word><![CDATA[Dough tagging]]></word>
+		<description><![CDATA[<p>A method used to ensure that the restaurant has enough dough throughout the day by marking the number of trays that will be used each hour.</p>]]></description>
+		<word><![CDATA[Dough tags]]></word>
+		<description><![CDATA[<p>The numbered markers clipped to dough trays that indicate the projected time the trays will be used on the current day.</p>]]></description>
+		<word><![CDATA[Downstacking]]></word>
+		<description><![CDATA[<p>The process of rotating the order of dough trays to manage the temperature.</p>]]></description>
+		<word><![CDATA[Driver Risk Report]]></word>
+		<description><![CDATA[<p>A report that notes which driver is at risk of having an expired license or Motor Vehicle Record (or MVR) check.</p>]]></description>
+		<word><![CDATA[Drivers’ Bank]]></word>
+		<description><![CDATA[<p>The money allocated to delivery drivers to make change to customers.  </p>]]></description>
+		<word><![CDATA[Dustinator]]></word>
+		<description><![CDATA[<p>The flour used to help the dough move freely on the counter surface.</p>]]></description>
+		 
+	</alphabet>
+	<alphabet letter = "E">
+		<word><![CDATA[Earned Hours Report]]></word>
+		<description><![CDATA[<p>Shows the break-down of number of products produced and delivered.</p>]]></description>
+		<word><![CDATA[Earned Hours Table]]></word>
+		<description><![CDATA[<p> A table listing the products and deliveries made each hour, based on which the number of members needed are calculated.</p>]]></description>
+		
+	</alphabet>
+	<alphabet letter = "F">
+		<word><![CDATA[FASPAC]]></word>
+		<description><![CDATA[<p>A term that describes Papa John’s core values. F stands for focus, A for accountability, S for superiority, P for P.A.P.A., A for attitude, and C for constant improvement.</p>]]></description>
+		<word><![CDATA[Financial Worksheet]]></word>
+		<description><![CDATA[<p>A worksheet used to examine cash control problems and financial status during an HIRV.</p>]]></description>
+		<word><![CDATA[Five-step model]]></word>
+		<description><![CDATA[<p>The model used for identifying problems at Papa John's.</p>]]></description>
+		<word><![CDATA[FLM]]></word>
+		<description><![CDATA[<p>Sum of the amount spent on food, labor, and mileage in the restaurant for a period.</p>]]></description>
+		<word><![CDATA[Fluffing]]></word>
+		<description><![CDATA[<p>The process of breaking the clumped pieces of ingredients. Fluffing promotes tempering and helps ensure proper yields. </p>]]></description>
+		<word><![CDATA[Functional interview]]></word>
+		<description><![CDATA[<p>An interview conducted to confirm if the candidate meets the functional requirements of the position.</p>]]></description>
+		
+	</alphabet>
+	<alphabet letter = "G">
+	<word><![CDATA[GM]]></word>
+		<description><![CDATA[<p>The acronym for General Manager.</p>]]></description>
+		<word><![CDATA[Grooming]]></word>
+		<description><![CDATA[<p>Refers to the process of developing team members with proper training and ongoing coaching to ensure they are continually providing a world class customer experience.</p>]]></description>
+	
+		
+	</alphabet>
+	<alphabet letter = "H">
+		<word><![CDATA[Hazardous chemicals]]></word>
+		<description><![CDATA[<p>Chemicals that can harm us. </p>]]></description>
+		<word><![CDATA[High Discount Report]]></word>
+		<description><![CDATA[<p>A report that notes how many discounts were given by each team member, the discount amount, and the order total.</p>]]></description>
+		<word><![CDATA[Hijackers]]></word>
+		<description><![CDATA[<p>Individuals who use the speaker’s words only as a way to get to their own message.</p>]]></description>
+		<word><![CDATA[HIRV Tool]]></word>
+		<description><![CDATA[<p> A spreadsheet that provides guidelines and checklists for a High Impact Restaurant Visit.</p>]]></description>
+		<word><![CDATA[HIRV]]></word>
+		<description><![CDATA[<p>The acronym for High Impact Restaurant Visit – a visit that is planned, have a redefined purpose, and ensures a desired impact.</p>]]></description>
+		<word><![CDATA[Hotbag]]></word>
+		<description><![CDATA[<p>The bag in which pizza is delivered hot and fresh.</p>]]></description>
+		
+	</alphabet>
+	<alphabet letter = "I">
+		<word><![CDATA[Initial prep time]]></word>
+		<description><![CDATA[<p>The time the pizza sauce is transferred from its can to a Lexan container.</p>]]></description>
+		<word><![CDATA[Initials column (INIT)]]></word>
+		<description><![CDATA[<p>The column in which the initials of the team member who received, prepared, or placed the item on the makeline is entered.</p>]]></description>
+		<word><![CDATA[Interrupters]]></word>
+		<description><![CDATA[<p>Individuals who do not allow the speaker to finish talking.</p>]]></description>
+		<word><![CDATA[Inventory Variance]]></word>
+		<description><![CDATA[<p>The difference between the targeted and actual inventory usage.</p>]]></description>
+		
+	</alphabet>
+	<alphabet letter = "J">
+
+	</alphabet>
+	<alphabet letter = "K">
+	<word><![CDATA[Kinesthetic learners]]></word>
+	<description><![CDATA[<p>Learners who learn through touching and doing.</p>]]></description>
+	
+	</alphabet>
+	<alphabet letter = "L">
+	<word><![CDATA[Labor Forecast Report]]></word>
+	<description><![CDATA[<p>Projects the number of in-store and delivery team members required per hour.</p>]]></description>
+	<word><![CDATA[Labor Management System (LMS)]]></word>
+	<description><![CDATA[<p>Refers to the set of guidelines regarding Labor Management.</p>]]></description>
+	<word><![CDATA[Labor Progress Report]]></word>
+	<description><![CDATA[<p> A report that matches earned hours versus used hours.</p>]]></description>
+	<word><![CDATA[Lexan pan]]></word>
+	<description><![CDATA[<p>A durable plastic container used to store the toppings on the makeline.</p>]]></description>
+	<word><![CDATA[Light side]]></word>
+	<description><![CDATA[<p>The part of the dough that rests on the tray.</p>]]></description>
+	<word><![CDATA[Listening Skills]]></word>
+	<description><![CDATA[<p>The skill of listening to the words said by participants and paraphrasing what they said to demonstrate your understanding.</p>]]></description>
+	<word><![CDATA[Long-term goals]]></word>
+	<description><![CDATA[<p>They are goals that are achieved after a year or more and are related to growing the business.</p>]]></description>
+	<word><![CDATA[LSM]]></word>
+	<description><![CDATA[<p>The acronym for Local Store Marketing – a range of marketing activities aligned with the local business market.</p>]]></description>
+	
+	</alphabet>
+	<alphabet letter = "M">
+		<word><![CDATA[Makeline monitor]]></word>
+		<description><![CDATA[<p>The monitor that displays customers’ orders in different codes and abbreviations.</p>]]></description>
+		<word><![CDATA[Makeline setup]]></word>
+		<description><![CDATA[<p>The work area of a pizza topper.</p>]]></description>
+		<word><![CDATA[Makeline]]></word>
+	<description><![CDATA[<p>Makeline is the production line for making pizzas. Typically, a makeline is a large, metal shelf with provision to keep Lexan containers containing pizza toppings. A catch tray is usually attached to the makeline.</p>]]></description>
+	<word><![CDATA[MCE]]></word>
+	<description><![CDATA[<p>The acronym for Mission Critical Evaluations</p>]]></description>
+	<word><![CDATA[Mind Wanderers]]></word>
+	<description><![CDATA[<p>Individuals who have the attention span of a butterfly.</p>]]></description>
+	<word><![CDATA[Morale Worksheet]]></word>
+	<description><![CDATA[<p>A worksheet used to examine employee turnover and morale status during an HIRV.</p>]]></description>
+		<word><![CDATA[Mound/Dark side]]></word>
+		<description><![CDATA[<p>The top of the dough that rises and forms a mound.</p>]]></description>
+		<word><![CDATA[Mystery Shopping]]></word>
+		<description><![CDATA[<p>A tool or matrix used to measure the performance of the team.</p>]]></description>
+		
+	</alphabet>
+	<alphabet letter = "N">
+		<word><![CDATA[Net Sales]]></word>
+		<description><![CDATA[<p>Derived by subtracting taxes levied and discounts offered from total sales. </p>]]></description>
+		<word><![CDATA[Non-controllable costs]]></word>
+		<description><![CDATA[<p>Costs the manager of a restaurant does not have control over. </p>]]></description>
+		<word><![CDATA[No-Topping Zone (NTZ)]]></word>
+		<description><![CDATA[<p>The center of  the pizza, where little or no toppings are placed.</p>]]></description>
+		<word><![CDATA[NTO]]></word>
+		<description><![CDATA[<p>The acronym for New Team Member Orientation. All new hires at Papa John’s are supposed to go through this orientation on their first day, before they do anything else.</p>]]></description>
+		
+	</alphabet>
+	<alphabet letter = "O">
+		<word><![CDATA[Observation skills]]></word>
+		<description><![CDATA[<p>The skill to observe your clients’ or trainees’ behavior, and anticipate individual and multicultural differences in nonverbal and verbal behavior.</p>]]></description>
+		<word><![CDATA[OP]]></word>
+		<description><![CDATA[<p>The acronym for Operations Program. </p>]]></description>
+		<word><![CDATA[OSHA inspection]]></word>
+		<description><![CDATA[<p>The acronym for Occupational Safety and Health Administration.</p>]]></description>
+		<word><![CDATA[Out-the-Door Time (OTD)]]></word>
+		<description><![CDATA[<p>The time it takes to prepare, bake, and box an order.</p>]]></description>
+		<word><![CDATA[Overportioning]]></word>
+		<description><![CDATA[<p>Using more ingredients than required by the recipe.</p>]]></description>
+		 
+	</alphabet>
+	<alphabet letter = "P">
+		<word><![CDATA[P&L]]></word>
+		<description><![CDATA[<p>Acronym for Profit and Loss Statement – Shows the various costs and income by a restaurant and calculates profits earned or losses incurred during a specific time period.</p>]]></description>
+		<word><![CDATA[P.A.P.A.]]></word>
+		<description><![CDATA[<p>The acronym for People Are Priority Always—one of the six core values of Papa John’s.</p>]]></description>
+		<word><![CDATA[Payroll Report]]></word>
+		<description><![CDATA[<p>A report that notes all pay-related information and the team members who are close to overtime for a specific date.</p>]]></description>
+		<word><![CDATA[Pizza cutter]]></word>
+		<description><![CDATA[<p>A tool for cutting pizzas.</p>]]></description>
+		<word><![CDATA[Pizza disc]]></word>
+		<description><![CDATA[<p>A transparent disc with measurements used for evaluating the quality of pizzas.</p>]]></description>
+		<word><![CDATA[Pizza peel]]></word>
+		<description><![CDATA[<p>A flat, wide shovel-like tool used for transferring food items to and from an oven.</p>]]></description>
+		<word><![CDATA[PNS]]></word>
+		<description><![CDATA[<p>The acronym for Projected Net Sales – the estimate of amount of sales that is expected over a period.</p>]]></description>
+		<word><![CDATA[Point of Sales (POS)]]></word>
+		<description><![CDATA[<p>An integrated system, comprising the computer, monitor, cash drawer, receipt printer, customer display, barcode scanner, and a debit or credit card reader, used for completing retail transactions.</p>]]></description>
+		<word><![CDATA[POP]]></word>
+		<description><![CDATA[<p>The acronym for Point of Purchase.</p>]]></description>
+		<word><![CDATA[Portion charts]]></word>
+		<description><![CDATA[<p>The charts that provide information about the ingredients to be included in the toppings and their quantity.</p>]]></description>
+		<word><![CDATA[Portion cups]]></word>
+		<description><![CDATA[<p>The cups used to measure out each ingredient. Each ingredient has a different colored cup.</p>]]></description>
+		<word><![CDATA[POS]]></word>
+		<description><![CDATA[<p>The acronym for Point of Sales.</p>]]></description>
+		<word><![CDATA[Power Thursday]]></word>
+		<description><![CDATA[<p>The acronym for Point of Purchase.</p>]]></description>
+		<word><![CDATA[PPOPE]]></word>
+		<description><![CDATA[<p>The acronym for Present, Prepare, Observe, Provide Feedback, and Evaluate – Papa John’s five-step training cycle.</p>]]></description>
+		<word><![CDATA[Prep Needs]]></word>
+		<description><![CDATA[<p>Calculated as the difference between the Build To and On Hand Inventory for an item.</p>]]></description>
+		<word><![CDATA[Pretenders]]></word>
+		<description><![CDATA[<p>Individuals who pretend to be listening by showing external signs. For example, nodding.</p>]]></description>
+		<word><![CDATA[Product Yield]]></word>
+		<description><![CDATA[<p>The amount of sales generated by each inventory unit. It is calculated as the ratio of Net Sales and Total Food Available for a week.</p>]]></description>
+		<word><![CDATA[Program Recap Document]]></word>
+		<description><![CDATA[<p> A document that provides the details of previously used LSM plans.</p>]]></description>
+		<word><![CDATA[Proofing]]></word>
+		<description><![CDATA[<p>The rising of the dough due to fermentation.</p>]]></description>
+		<word><![CDATA[Pushing the dough]]></word>
+		<description><![CDATA[<p>The process of speeding up the proofing process by increasing the temperature.</p>]]></description>
+ 
+	</alphabet>
+	<alphabet letter = "Q">
+		<word><![CDATA[Quality Control Center (QCC)]]></word>
+		<description><![CDATA[<p>The place where Papa John’s dough is made in order to ensure its quality and full seven-day shelf life in restaurants.</p>]]></description>
+		<word><![CDATA[Quality fork]]></word>
+		<description><![CDATA[<p>A long, two-pronged fork-like tool used for popping the bubbles on pizzas.</p>]]></description>
+		<word><![CDATA[Questionnaires]]></word>
+		<description><![CDATA[<p>A set of questions to assess key business areas.</p>]]></description>
+	 
+	</alphabet>
+	<alphabet letter = "R">
+		<word><![CDATA[Refrigerated cabinets]]></word>
+		<description><![CDATA[<p>The cabinets under the makeline, where the less frequently used pans and toppings are stored.</p>]]></description>
+		<word><![CDATA[Remaining shelf life]]></word>
+		<description><![CDATA[<p>The remaining shelf life of the prepped pizza sauce calculated by subtracting the difference between the initial prep time and the current time from the total shelf life. The maximum shelf life of prepped sauce is 10 hours.</p>]]></description>
+		<word><![CDATA[Routing]]></word>
+		<description><![CDATA[<p>The process of assigning orders ready for delivery to the delivery drivers, after taking into consideration factors such as destination, elapsed time, and possibility of combining deliveries.</p>]]></description>
+		
+		
+	</alphabet>
+	<alphabet letter = "S">
+		<word><![CDATA[Safety Data Sheet (SDS)]]></word>
+		<description><![CDATA[<p>A form that lists key information about a chemical.</p>]]></description>
+		<word><![CDATA[Schedule Report]]></word>
+		<description><![CDATA[<p> A report that shows the working hours planned for each team member.</p>]]></description>
+		<word><![CDATA[SDC]]></word>
+		<description><![CDATA[<p>The acronym for Skill Demonstration Checklist.</p>]]></description>
+		<word><![CDATA[Shelf life chart]]></word>
+		<description><![CDATA[<p>A chart used to determine the window of time a food product is acceptable for use.</p>]]></description>
+		<word><![CDATA[Shelf life]]></word>
+		<description><![CDATA[<p>The span of time during which an ingredient is fit for use.</p>]]></description>
+		<word><![CDATA[Short-term goals]]></word>
+		<description><![CDATA[<p> They are goals that are achieved in less than a year and are related to specific restaurant performance areas.</p>]]></description>
+		<word><![CDATA[Sides]]></word>
+		<description><![CDATA[<p>Orders that are placed in addition to pizzas, such as breadsticks, cheesesticks, and beverages.</p>]]></description>
+		<word><![CDATA[Signage]]></word>
+		<description><![CDATA[<p>Any display of the Papa John’s logo on the delivery vehicles. For example, a car topper on top of a delivery car.</p>]]></description>
+		<word><![CDATA[SMART goals]]></word>
+		<description><![CDATA[<p>The acronym for Specific, Measurable, Attainable, Relevant, and Time-bound – qualities required for a good business goal.</p>]]></description>
+		<word><![CDATA[Spring-back]]></word>
+		<description><![CDATA[<p>The ability of the dough ball to spring back to its original shape when pressed with the pads of the fingers and released.</p>]]></description>
+		<word><![CDATA[STAR]]></word>
+		<description><![CDATA[<p>A method used by the interviewer during the behavioral interview to obtain key behavioral information about a candidate. The letters STAR stand for Situation, Task, Action, and Result.</p>]]></description>
+		<word><![CDATA[Sticker]]></word>
+		<description><![CDATA[<p>A colored label used on dough trays to indicate the “good through” date and “best by” date of the dough. </p>]]></description>
+		<word><![CDATA[SWOT Analysis]]></word>
+		<description><![CDATA[<p>The acronym for Strengths, Weaknesses, Opportunities, and Threats – an analysis or study of your business and that of your competitors to identify the business opportunities and vulnerabilities.</p>]]></description>
+ 
+	</alphabet>
+	<alphabet letter = "T">
+		<word><![CDATA[Tagging]]></word>
+		<description><![CDATA[<p>The technique used to indicate the age of the dough.</p>]]></description>
+		<word><![CDATA[Target Inventory Cost Report]]></word>
+		<description><![CDATA[<p>A report that notes which items in the inventory are being over- and under-used.</p>]]></description>
+		<word><![CDATA[Target Prep Yield]]></word>
+		<description><![CDATA[<p>Calculated as the ratio of QCC Yield to the Unit Count for an item in a week.</p>]]></description>
+		<word><![CDATA[Tempering]]></word>
+		<description><![CDATA[<p>The process of allowing thawing ingredients stored in walk-in cooler. </p>]]></description>
+		<word><![CDATA[Thermometer]]></word>
+		<description><![CDATA[<p>The device used to measure and check the temperature of the dough.</p>]]></description>
+		<word><![CDATA[Time Clock Report]]></word>
+		<description><![CDATA[<p>A report that notes the clock in and clock out times and the total hours worked by team members for a specified date.</p>]]></description>
+		<word><![CDATA[Time Management]]></word>
+		<description><![CDATA[<p>To organize people, events, and tasks effectively and efficiently. </p>]]></description>
+		<word><![CDATA[Time-delay Safe]]></word>
+		<description><![CDATA[<p>The safe used at Papa John's restaurants to depositing money – can be opened after 15 minutes of entering the code</p>]]></description>
+		<word><![CDATA[TIP]]></word>
+		<description><![CDATA[<p>Talk Into Position (TIP) is a technique followed by managers at the start of every shift to create a successful and profitable shift.</p>]]></description>
+		<word><![CDATA[TIP/TOP]]></word>
+		<description><![CDATA[<p>Talk into Position/Talk out of Position.</p>]]></description>
+		<word><![CDATA[TOP]]></word>
+		<description><![CDATA[<p>Talk Out of Position (TOP) is a technique followed by managers at the end of every shift to create a successful and profitable shift.</p>]]></description>
+		<word><![CDATA[Total Food Available]]></word>
+		<description><![CDATA[<p>Calculated as the sum of Beginning Inventory, Purchases, and Transfers for a particular food item for the week.</p>]]></description>
+		<word><![CDATA[Training]]></word>
+		<description><![CDATA[<p> Teaching your team member everything he/she needs to know to function in his/her job role.</p>]]></description>
+  		
+ 	</alphabet>
+	
+	<alphabet letter = "U">
+		<word><![CDATA[Underportioning]]></word>
+		<description><![CDATA[<p>Using fewer ingredients than required by the recipe.</p>]]></description>
+		<word><![CDATA[Up-selling]]></word>
+		<description><![CDATA[<p>The process of selling products that are similar to or more of the same product that the customer wants to buy.</p>]]></description>
+		
+	</alphabet>
+	<alphabet letter = "V">
+		<word><![CDATA[Variance]]></word>
+		<description><![CDATA[<p>The difference between the actual cost and budgeted cost for a line item.</p>]]></description>
+		<word><![CDATA[Visual learners]]></word>
+		<description><![CDATA[<p>Learners who learn through seeing and reading.</p>]]></description>
+	
+	</alphabet>
+	<alphabet letter = "W">
+		<word><![CDATA[Warm-up time]]></word>
+		<description><![CDATA[<p>The amount of time the dough takes to reach 50 °F (or 10 °C).</p>]]></description>
+	</alphabet>
+	<alphabet letter = "X">
+
+	</alphabet>
+	<alphabet letter = "Y">
+		<word><![CDATA[Yeast]]></word>
+		<description><![CDATA[<p>The ingredient that ferments the pizza dough.</p>]]></description>
+	</alphabet>
+	<alphabet letter = "Z">
+	</alphabet>
+	
+	
+
+</data>

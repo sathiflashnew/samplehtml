@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+	<general>
+		<title>
+			<langstring>@module_title@</langstring>
+		</title>
+		<catalogentry>
+			<catalog></catalog>
+			<entry>
+				<langstring>1000-02-02</langstring>
+			</entry>
+		</catalogentry>
+		<language>@lang@</language>
+		<description>
+			<langstring>@module_title@</langstring>
+		</description>
+		<keyword>
+			<langstring>@module_keywords@</langstring>
+		</keyword>
+		<aggregationlevel>
+			<source>
+				<langstring xml:lang="x-none">LOMv1.0</langstring>
+			</source>
+			<value>
+				<langstring xml:lang="x-none">1</langstring>
+			</value>
+		</aggregationlevel>
+	</general>
+	<lifecycle>
+		<version>
+			<langstring>1.1</langstring>
+		</version>
+		<status>
+			<source>
+				<langstring xml:lang="x-none">LOMv1.0</langstring>
+			</source>
+			<value>
+				<langstring xml:lang="x-none">Final</langstring>
+			</value>
+		</status>
+		<contribute>
+			<role>
+				<source>
+					<langstring xml:lang="x-none">LOMv1.0</langstring>
+				</source>
+				<value>
+					<langstring xml:lang="x-none">Author, SME</langstring>
+				</value>
+			</role>
+			<centity>
+				<vcard>BEGIN:vCard ORG:ADL Co-Lab END:vCard</vcard>
+			</centity>
+			<date>
+				<datetime>@buildISOTime@</datetime>
+			</date>
+		</contribute>
+	</lifecycle>
+	<metametadata>
+		<metadatascheme>ADL SCORM 1.2</metadatascheme>
+	</metametadata>
+	<technical>
+		<format>HTML</format>
+		<size>1</size>
+		<location>index.html</location>
+		<requirement>
+			<type>
+				<source>
+					<langstring xml:lang="x-none">LOMv1.0</langstring>
+				</source>
+				<value>
+					<langstring xml:lang="x-none">Browser</langstring>
+				</value>
+			</type>
+			<name>
+				<source>
+					<langstring xml:lang="x-none">LOMv1.0</langstring>
+				</source>
+				<value>
+					<langstring xml:lang="x-none">Multi-OS</langstring>
+				</value>
+			</name>
+			<minimumversion>1</minimumversion>
+		</requirement>
+	</technical>
+	<educational>
+		<learningresourcetype>
+			<source>
+				<langstring xml:lang="x-none">LOMv1.0</langstring>
+			</source>
+			<value>
+				<langstring xml:lang="x-none">Narrative Text</langstring>
+			</value>
+		</learningresourcetype>
+		<typicallearningtime>
+			<durationType>00:15</durationType>
+		</typicallearningtime>
+	</educational>
+	<rights>
+		<cost>
+			<source>
+				<langstring xml:lang="x-none">LOMv1.0</langstring>
+			</source>
+			<value>
+				<langstring xml:lang="x-none">No</langstring>
+			</value>
+		</cost>
+		<copyrightandotherrestrictions>
+			<source>
+				<langstring xml:lang="x-none">LOMv1.0</langstring>
+			</source>
+			<value>
+				<langstring xml:lang="x-none">Yes</langstring>
+			</value>
+		</copyrightandotherrestrictions>
+	</rights>
+	<classification>
+		<purpose>
+			<source>
+				<langstring xml:lang="x-none">LOMv1.0</langstring>
+			</source>
+			<value>
+				<langstring xml:lang="x-none">Internal Training</langstring>
+			</value>
+		</purpose>
+		<description>
+			<langstring>@module_title@</langstring>
+		</description>
+		<keyword>
+			<langstring>@module_title@</langstring>
+		</keyword>
+	</classification>
+</lom>

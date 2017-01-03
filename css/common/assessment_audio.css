@@ -1,0 +1,511 @@
+
+.ASmntHeader {
+   background: url("../../assets/image/common/assess01.png") no-repeat scroll right bottom #333333;
+    height: 100%;
+	padding: 25px 0px;
+}
+
+.ASmntHeader .common_table_Cell{
+	text-align:left;}
+
+
+
+
+/*================
+ Assessment
+ ==================================*/
+
+.assessmentTitle {
+    color: #fff;
+    height: 100%;
+    line-height: 20px;
+    margin-left: 55px;
+    margin-right: 141px;
+    vertical-align: middle;
+}
+.assessment_disp00, .assessment_disp01, .assessment_disp02, .assessment_disp03{ position:relative;}
+
+.assessmentTitle.numbered{
+	 margin-left: 53px;
+	}
+.question > ol > li {
+    padding-left: 6px;
+}
+.assessmentContent {
+	padding:20px 200px 20px 25px;
+	background-image:url(../../assets/image/common/assess02.png);
+	background-repeat:no-repeat;
+	border:1px solid #b4a8a5;
+	border-top:0px;
+	background-position:right top;
+	position:relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+.assessment .common_table_Cell {
+	vertical-align:top;
+}
+.Button_red {
+	color:#fff;
+	float:left;
+	padding:10px 25px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.question_dot {
+	width:31px;
+	height:32px;
+	position:absolute;
+	right:67px;
+	top:90px;
+	width:31px;
+}
+
+ .question_wrapper{
+ background: none repeat scroll 0 0 #727272;
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+	 
+	 }
+ .question_num{
+color: #fff;
+    display: table-cell;
+    font-size: 25px;
+    height: 100%;
+    line-height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+	 
+	 }
+	 .ASmntHeader{
+		  position: relative;
+		 }
+/*================
+ Assessment
+ ==================================*/
+
+
+.assessmentBox{
+	display:table;
+	width:100%;
+	}
+.tableRow{
+	display:table-row;
+	height:70px;
+	width:100%;
+}
+.background_color{
+	background:#333333;
+}
+
+
+.assessmentBtb{
+	background:#6d7073;
+	padding:20px 25px 20px 25px;
+	color:#FFF;
+}
+.
+/*---------------Radio button start---------------*/
+.RadioTag, .RadioTag_1, .RadioTag_2, .RadioTag_3, .RadioTag_4 {
+    clear: both;
+    display:table;
+    margin: 0 0 10px;
+    width: 100%;
+}
+
+
+.RadioTagSelect {
+	float: left;
+	margin-left: 0px;
+	cursor: pointer;
+}
+.imgRadio {
+	width: 21px;
+	height: 20px;
+	position: relative;
+	float: left;
+	display: block;
+	margin-top: 2px;
+	margin-bottom:15px;
+	
+}
+.imgRadioSelect {
+	width: 21px;
+	height: 20px;
+	position: relative;
+	float: left;
+	display: block;
+	margin-top: 2px;
+	cursor: pointer;
+	background-position:0px -20px;
+}
+.opt {
+    font-weight: normal;
+   
+    margin-bottom: 10px;
+    padding-left:10px;
+    text-align: left;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.rightWrong {
+    display:none;
+	float:left;
+    height: 20px;
+    width: 20px;
+	
+}
+.rightWrong.icon-right {
+    color: #009c71;
+}
+.rightWrong.icon-wrong {
+    color:#b9141a;
+}
+
+/*assessment_page*/
+
+
+.pageContent{
+	width:100%;
+	height:100%;}
+.assessment_disp02{
+	height:100%;}
+.assessment_disp00, .assessment_disp01, .assessment_disp02, .assessment_disp03{
+	display:none;}
+	
+.assessment_disp03 {
+     height: 100%;
+}
+
+.assessment_disp01 {
+    display:block;
+}
+.table_holedr {
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.container {
+    height: 100%;
+}
+
+.feedback_bg{
+	padding:20px;
+	position:relative;}
+
+.FB_right {
+    float: right;
+    text-align: left;
+    width: 53%;
+}
+
+.FB_right h3 {
+    color: #fff;
+    font-size: 2.375em;
+    text-transform: uppercase;
+}
+.fb_button_wrapper{
+	margin-top:100px;}
+
+.Fb_buttons {
+    margin: 0 -10px;
+    text-align: center;
+}
+
+.Fb_buttons li {
+    background: none repeat scroll 0 0 #e87352;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 0;
+    text-align: center;
+    width: 43%;
+}
+
+.Fb_SCoreCard {
+    left: 20px;
+    position: absolute;
+    top: -21px;
+    width: 43%;
+}
+
+.ScoreCard {
+    background: none repeat scroll 0 0 #e87352;
+    color: #743725;
+    font-size: 3.625em;
+    padding: 22px;
+    text-align: center;
+}
+
+.ScoreDisplay {
+    background: none repeat scroll 0 0 #3abec0;
+    color: #e4f5fe;
+    font-size: 7.313em;
+    padding: 20px;
+    text-align: center;
+}
+
+.ScoreDisplay span{
+	font-size:56px;}
+	
+
+.page_overlay {
+	/*background: rgba(76,77,81,.1);*/
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 9;
+	display: none;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+	
+	
+/*---------assessment intro---------*/
+
+
+.pageWrapper {
+    height: 100%;
+}
+.middlesection{
+	height: auto;
+    width: 100%;
+}
+.middlesection_left{
+	width:52%;
+	height:auto;
+	float:left;
+}
+.imageContainer{
+	width:80%;
+}
+.middlesection_right{
+	width:45%;
+	height:auto;
+	float:right;
+	margin-right:-40px;
+}
+.innermiddle_content_left{
+	padding-right: 20px;
+	position:relative;
+}
+.content_right{
+	width:100%;
+	text-align:right;
+}
+
+
+
+
+.content_left{
+	width:50%;
+}
+
+
+
+
+#result_table thead tr td {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+#result_table tr td {
+    color: #fff;
+    padding: 10px;
+}
+
+
+.review_result {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.feedback_content {
+    background: none repeat scroll 0 0 #6d7073;
+    min-height: 36px;
+    padding: 20px 130px 20px 20px;
+    text-align: left;
+
+}
+
+.Button_orange.Continue_Button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.assessmentBox .dflt_brdr_color:after, .assessmentBox .shell_bg_dark_grey:after {
+    border: none;
+}
+
+
+
+.feedback_text > p {
+    color: #fff;
+}
+
+
+
+.MCQCheckSelect, .MCQCheck {
+     border-style: solid;
+    border-width: 1px;
+	display:block;
+    float: left;
+    height: 20px;
+    margin-top: 2px;
+    position: relative;
+    width: 20px;
+}
+
+.MCQCheckSelect:after {
+    content: "";
+    display: block;
+    height: 10px;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    width: 10px;
+}
+.RadioTag {
+    margin-bottom: 15px;
+}
+@media (max-device-width: 1024px) {
+.opt{
+		-webkit-padding-before:5px;
+	}
+}
+@media (max-device-width: 768px) {
+	
+
+.Fb_SCoreCard {
+    left: 20px;
+    position: absolute;
+    top: -54px;
+    width: 43%;
+}}
+
+
+
+@media (max-device-width: 767px) {
+	
+.question_dot{
+	display:none;}
+.Fb_SCoreCard {
+    left: 20px;
+    position: absolute;
+    top: -54px;
+    width: 43%;
+}
+.assessmentTitle{
+	margin-right:20px;}
+
+	
+.feedback_content {
+    position: inherit;
+    text-align: left;
+	padding:20px;
+	width:auto;
+
+}
+.ASmntHeader{
+	background-image:none;}
+
+}
+
+
+@media only screen and (max-device-width: 720px){
+	
+.Fb_SCoreCard {
+    left: 0;
+    position: relative;
+    right: 0;
+    top: -48px;
+    width: inherit;
+}
+.FB_right {
+    float: inherit;
+    text-align: center;
+    width: 100%;
+}
+
+.fb_button_wrapper {
+    margin-top: 30px;
+}
+.feedback_bg {
+    margin-top: 50px;
+}
+
+.assessmentContent{
+	padding:10px 25px 10px 25px;
+	background-image:none;}
+}
+
+.assessmentTitle.assessmentTitle_left{
+	margin-left: 20px;
+}
+@media (max-device-width: 650px) {
+	.ASmntHeader{
+		height:auto;
+		padding: 10px 0;
+	}
+}
+@media (max-device-width: 360px) {
+	
+
+.Fb_buttons li {
+    width: 43%;
+}
+
+.ScoreCard {
+    font-size: 2.625em;
+    padding: 6px;
+}
+
+
+.FB_right h3 {
+    font-size: 27px;
+}
+
+.opt{
+	line-height: 24px;
+}
+.KC_innerPadding .Next_Button{
+	-webkit-padding-before:8px;
+}
+.KC_innerPadding .continueText{
+	-webkit-padding-before:9px;
+}
+}
+@media (max-device-width: 320px) {
+.Fb_buttons li {
+    margin-bottom: 15px;
+    width: 90%;
+}
+.opt{
+	line-height:18px;
+}
+}
+@media only screen and (max-width: 800px) and (orientation:portrait) and (-webkit-device-pixel-ratio:1){
+	.opt{line-height:30px;}
+	}

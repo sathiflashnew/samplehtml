@@ -1,0 +1,42 @@
+.pageWrapper {
+	height: 100%;
+	width: 100%;
+}
+.contant_wrapper {
+	display: inline-block;
+	text-align: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+.contntpadding {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 50%;
+}
+.imgWrap {
+	width: 50%;
+}
+.imgWrap img {
+	vertical-align: top;
+	width:100%;
+}
+ @media only screen and (max-width:600px) {
+.pageWrapper .common_table_Cell, .pageWrapper .common_table {
+	display: block;
+}
+.FL, .FR {
+	float: inherit;
+	float: initial;
+}
+.contntpadding {
+	width: 100%;
+}
+.imgWrap {
+	margin-top: 20px;
+	width: 100%;
+}
+}

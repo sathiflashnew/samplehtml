@@ -1,0 +1,23 @@
+<config>
+	<moduleDeploy val="@module@/" />
+	<langDeploy val="@lang@/" />
+	<isDeploy val="@isDeploy@" />
+	<!-- Lang Codes: val to be entered as "en/"
+	English (US)		: en
+	English (UK)		: uk
+	Simplified Chinese	: cn
+	Spanish				: es
+	Korean				: ko
+	Russian				: ru
+	Arabic				: ar
+	Turkish				: tr
+	Traditional Chinese	: tw
+	Hindi				: hi
+	Tagalog				: tl
+	Malay				: ms
+	French				: fr
+	Portuguese			: pt -->
+	<!-- Edit only this -->
+	<module val="m011/" />
+	<lang val="en/" />
+</config>

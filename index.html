@@ -1,0 +1,1016 @@
+﻿<!doctype html>
+<html lang="en">
+	<head>
+		<meta http-equiv="x-ua-compatible" content="IE=edge" >
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="[@module@-@lang@] @buildDate@, @buildTime@">
+		<meta name="description" content="PJI Templates">
+		<meta name="author" content="@author@">
+		<meta name="keywords" content="@module_keywords@">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>GROU.PS</title>
+		<link rel="stylesheet" type="text/css" href="css/common/shell.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/fontStyle.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/global_style.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/libs/magnific-popup.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/libs/jquery.mCustomScrollbar.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/libs/mediaelementplayer.css" />
+		<!-- Libs -->
+		<script src="js/common/libs/jquery-1.10.2.min.js"></script>
+		<script src="js/common/libs/jquery-ui.js"></script>
+		<script src="js/common/libs/jquery.ui.touch-punch.js"></script>
+		<script src="js/common/libs/jquery.touchSwipe.min.js"></script>
+		<script src="js/common/libs/TweenMax.min.js"></script>
+		<script src="js/common/libs/jquery.magnific-popup.min.js"></script>
+		<script src="js/common/libs/jquery.easyModal.js"></script>
+		<script src="js/common/libs/jquery.mCustomScrollbar.js"></script>
+		<script src="js/common/libs/addEventListener.js"></script>
+		<script src="js/common/libs/jpreloader.min.js"></script>
+		<script src="js/common/libs/mediaElement/mediaelement-and-player.min.js"></script>
+		<script src="js/common/blue-mobile.js"></script>
+		<script src="js/common/xmlParser.js"></script>
+		<script src="js/common/DetectDevice.js"></script>
+		<script src="js/common/browserDetect.js"></script>
+		<script src="js/common/BgLoader.js"></script>
+		<script src="js/common/AudioPlayer.js"></script>
+		<script src="js/common/Shell.js"></script>
+		<script src="js/common/Controller.js"></script>
+		<script src="js/common/AnimUtils.js"></script>
+		<script src="js/common/Model.js"></script>
+		<script src="js/common/scorm_api.js"></script>
+		<script src="js/common/SCORMHandler.js"></script>
+		<script src="js/common/Menu.js"></script>
+		<script src="js/common/glossary.js"></script>
+		<script src="js/common/imageLoader.js"></script>
+		<script src="js/common/EventManager.js"></script>
+		<script src="js/common/ProgressiveLoader.js"></script>
+		<script src="js/common/NavigationTour.js"></script>
+		<script type="text/javascript">
+			function LMSExit() {
+				try {
+					finish();
+				} catch(e) {
+				}
+			}
+		</script>
+		<script type="text/javascript">
+			if (navigator.userAgent.match(/iPad;.*CPU.*OS 7_\d/i)) {
+				$('html').addClass('ipad ios7');
+			}
+		</script>
+
+		<script type="text/javascript" src="js/common/styleswitcher.js"></script>
+		<style>
+			.styleswitcher {
+				left: 0;
+				position: absolute;
+				top: -40px;
+				display: none;
+			}
+			.styleswitcher a {
+				float: left;
+				display: block;
+				text-decoration: none;
+				padding: 10px;
+				color: #fff;
+			}
+		</style>
+		<style>
+			#debug-mq {
+				display: none;
+				left: 170px;
+				position: absolute;
+				top: 0;
+			}
+			#debug-mq > span#sizeJS {
+				color: #00F;
+				top: 22px;
+			}
+			span[id^='size'] {
+				color: #f00;
+				background: #FFFF99;
+				display: none;
+				font-weight: bold;
+				padding: 0 5px;
+				position: absolute;
+				top: 0;
+				z-index: 1000;
+			}
+
+			@media screen and (min-device-width: 0px) and (max-device-width: 300px) {
+				#sizeA {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 301px) and (max-device-width: 310px) {
+				#sizeB {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 311px) and (max-device-width: 320px) {
+				#sizeC {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 321px) and (max-device-width: 330px) {
+				#sizeD {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 331px) and (max-device-width: 340px) {
+				#sizeE {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 341px) and (max-device-width: 350px) {
+				#sizeF {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 351px) and (max-device-width: 360px) {
+				#sizeG {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 361px) and (max-device-width: 370px) {
+				#sizeH {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 371px) and (max-device-width: 380px) {
+				#sizeI {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 381px) and (max-device-width: 390px) {
+				#sizeJ {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 391px) and (max-device-width: 400px) {
+				#sizeK {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 401px) and (max-device-width: 410px) {
+				#sizeL {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 411px) and (max-device-width: 420px) {
+				#sizeM {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 421px) and (max-device-width: 430px) {
+				#sizeN {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 431px) and (max-device-width: 440px) {
+				#sizeO {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 441px) and (max-device-width: 450px) {
+				#sizeP {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 451px) and (max-device-width: 460px) {
+				#sizeQ {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 461px) and (max-device-width: 470px) {
+				#sizeR {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 471px) and (max-device-width: 480px) {
+				#sizeS {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 481px) and (max-device-width: 490px) {
+				#sizeT {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 491px) and (max-device-width: 500px) {
+				#sizeU {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 501px) and (max-device-width: 510px) {
+				#sizeV {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 511px) and (max-device-width: 520px) {
+				#sizeW {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 521px) and (max-device-width: 530px) {
+				#sizeX {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 531px) and (max-device-width: 540px) {
+				#sizeY {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 541px) and (max-device-width: 550px) {
+				#sizeZ {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 551px) and (max-device-width: 560px) {
+				#sizeAA {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 561px) and (max-device-width: 570px) {
+				#sizeAB {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 571px) and (max-device-width: 580px) {
+				#sizeAC {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 581px) and (max-device-width: 590px) {
+				#sizeAD {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 591px) and (max-device-width: 600px) {
+				#sizeAE {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 601px) and (max-device-width: 610px) {
+				#sizeAF {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 611px) and (max-device-width: 620px) {
+				#sizeAG {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 621px) and (max-device-width: 630px) {
+				#sizeAH {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 631px) and (max-device-width: 640px) {
+				#sizeAI {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 641px) and (max-device-width: 650px) {
+				#sizeAJ {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 651px) and (max-device-width: 660px) {
+				#sizeAK {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 661px) and (max-device-width: 670px) {
+				#sizeAL {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 671px) and (max-device-width: 680px) {
+				#sizeAM {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 681px) and (max-device-width: 690px) {
+				#sizeAN {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 691px) and (max-device-width: 700px) {
+				#sizeAO {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 701px) and (max-device-width: 710px) {
+				#sizeAP {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 711px) and (max-device-width: 720px) {
+				#sizeAQ {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 721px) and (max-device-width: 730px) {
+				#sizeAR {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 731px) and (max-device-width: 740px) {
+				#sizeAS {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 741px) and (max-device-width: 750px) {
+				#sizeAT {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 751px) and (max-device-width: 760px) {
+				#sizeAU {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 761px) and (max-device-width: 770px) {
+				#sizeAV {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 771px) and (max-device-width: 780px) {
+				#sizeAW {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 781px) and (max-device-width: 790px) {
+				#sizeAX {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 791px) and (max-device-width: 800px) {
+				#sizeAY {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 801px) and (max-device-width: 810px) {
+				#sizeAZ {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 811px) and (max-device-width: 820px) {
+				#sizeBA {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 821px) and (max-device-width: 830px) {
+				#sizeBB {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 831px) and (max-device-width: 840px) {
+				#sizeBC {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 841px) and (max-device-width: 850px) {
+				#sizeBD {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 851px) and (max-device-width: 860px) {
+				#sizeBE {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 861px) and (max-device-width: 870px) {
+				#sizeBF {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 871px) and (max-device-width: 880px) {
+				#sizeBG {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 881px) and (max-device-width: 890px) {
+				#sizeBH {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 891px) and (max-device-width: 900px) {
+				#sizeBI {
+					display: block;
+				}
+			}
+			@media screen and (min-device-width: 901px) {
+				#sizeBJ {
+					display: block;
+				}
+			}
+		</style>
+		<!--[if lt IE 9]>
+		<noscript>
+		<link rel="stylesheet" href="css/common/ie9fallback.css">
+		</noscript>
+		<![endif]-->
+	</head>
+	<body onUnload="LMSExit()" class="body-lang-en">
+		<!--Course Exit Done -->
+		<div id="shell_e_ppopup" class="ShellOverlay">
+			<div class="common_table">
+				<div class="common_table_Cell">
+					<div class="exitPopupWrap">
+						<div class="pop_wrapper">
+							<p class="exitInsTxt">
+								Are you sure you want to exit?
+							</p>
+							<div class="ClearFix"></div>
+							<ul class="exit">
+								<li id="shell_yes_btn" class="yesTxt FL">
+									Yes
+								</li>
+								<li id="shell_no_btn" class="noTxt FL">
+									No
+								</li>
+								<div class="ClearFix"></div>
+							</ul>
+							<div class="ClearFix"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//Course Exit -->
+		<!--LMS Resume not Done -->
+		<div id="shell_e_ppopup" class="ShellOverlay resume">
+			<div class="common_table">
+				<div class="common_table_Cell">
+					<div class="exitPopupWrap">
+						<div class="pop_wrapper">
+							<p class="exitInsTxt1 lmsbookmarkTxt">
+								Would you like to continue from the page you visited in your last session? Click Yes to continue or click No to start from the first page.
+							</p>
+							<div class="ClearFix"></div>
+
+							<ul class="exit">
+								<li class="yes_btn">
+									<span class="yesTxt1">Yes</span>
+								</li>
+								<li class="no_btn">
+									<span class="noTxt1">No</span>
+								</li>
+								<div class="clearFix"></div>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//LMS Resume -->
+		<!--Fun facts Done -->
+		<div class="common_table">
+			<div class="common_table_Cell">
+				<div class="shellWrap">
+					<div class="FunFactWapr">
+						<div class="FunFactWaprvideo">
+							<video id="bgvid" class="desk">
+								<source src="assets/video/common/funfact_desk.mp4" type="video/mp4">
+							</video>
+							<div id="iVideoWrap">
+								<video id="bgvid_ipad" class="ipad">
+									<source src="assets/video/common/funfact_ipad.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
+						<div class="FunFact_BK"></div>
+						<div class="common_table">
+							<div class="common_table_Cell">
+								<div class="FunFactcontntWapr">
+									<h2 class="funFactTxt">Fun Fact</h2>
+									<div class="FunFactQuoteCnt">
+										<div class="FunFactQuoteInner">
+											<p>
+												John Schnatter always says: "Great service can save an OK pizza, but a great pizza cannot save bad customer service."
+											</p>
+										</div>
+									</div>
+									<div id="FFBackBtn" class="FunFactBtn funFactCloseTxt">
+										Close
+									</div>
+									<div class="clearFix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="preloaderSpinner" class="ShellOverlay">
+						<div class="common_table">
+							<div class="common_table_Cell">
+								<div class="loaderwrap">
+									<div class="loader">
+										<span> <img src="assets/image/common/pji_loader.png" /> </span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--inner preloader-->
+					<div id="preloaderSpinner_int" class="Int_Preloader">
+						<div class="common_table">
+							<div class="common_table_Cell">
+								<img src="assets/image/common/loader.gif" />
+							</div>
+						</div>
+					</div>
+					<!--inner preloader-->
+					<div id="deviceLaunch"  class="ShellOverlay">
+						<div class="common_table">
+							<div class="common_table_Cell">
+								<div id="triggerBtn" class="Intro_button icon-play "></div>
+							</div>
+						</div>
+					</div>
+					<div class="styleswitcher">
+						<a href="#" onClick="setActiveStyleSheet('default'); return false;">Green</a>
+						<a href="#" onClick="setActiveStyleSheet('alternate 2'); return false;">Red</a>
+					</div>
+					<!--Nav next back -->
+					<nav class="nav_nxtBck footer-holder">
+						<div class="common_table">
+							<div class="common_table_Cell">
+								<ul>
+									<li class="back icon-back" id="shell_back"></li>
+									<li class="MobplayButton icon-play play"></li>
+									<li class="next icon-next" id="shell_next"></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+					<div id="bgAudioHolder" style="display:none;">
+						<!--audio id="bg_audio" controls>
+						<source id="mp3_src" src="assets/audio/common/en/mute.mp3" type="audio/mp3">
+						Your browser does not support the audio element.
+						</audio-->
+					</div>
+					<div id="tracer" style="display:none;">
+						tracer
+					</div>
+					<!--//Nav next back -->
+					<!-- This will display when the menu is open in mobile -->
+					<div class="ShellOverlay menuovrlay"></div>
+					<!-- This will display when the menu open -->
+					<!-- Shell Menu starts here -->
+					<ul id="Shell_menu" class="Shell_menu">
+						<div class="menuwrapp">
+							<div class="mobLogo"><img class="lang-cn lang-es lang-ru lang-ko" src="assets/image/common/papaJohns.png" alt="Papa John's Logo">
+							</div>
+							<div class="mobBadg">
+								<div class="Papa_indicator icon-papabadg" id="FFMBtn"></div>
+							</div>
+							<li>
+								<a id="menubtn" href="#" class="courseMenuTxt">COURSE MENU</a>
+							</li>
+							<li class="mob_transcript">
+								<a id="shell_transcript" href="#" class="transcriptTxt"><span></span>TRANSCRIPT</a>
+							</li>
+							<li class="resourcestat">
+								<a id="Resourcesbtn" href="#" class="resourcesTxt"><span></span>RESOURCES</a>
+							</li>
+							<li>
+								<a id="glossarybtn" href="#" class="glossaryTxt">GLOSSARY</a>
+							</li>
+							<li>
+								<a id="helpbtn" href="#" class="helpTxt">HELP</a>
+							</li>
+							<li class="Audio">
+								<a id="shell_mute" href="#"><span></span><small class="audioTxt1">AUDIO ON</small><small class="audioTxt2">AUDIO ON</small></a>
+							</li>
+							<li class="mob_exit">
+								<a id="Mob_shell_exit" href="#" class="exitTxt">EXIT</a>
+							</li>
+						</div>
+						<span class="courseInsTxt">The course is paused. Click <span class="icon-wrong"></span> to resume the course.</span>
+					</ul>
+					<!--Shell Menu starts here -->
+					<!--Shell Menu starts here -->
+					<div class="ShellMenuWrapper" id="Menudrp"></div>
+					<!--//Shell Menu starts here -->
+					<!--Shell Resourses starts here -->
+					<div class="ShellResourseWrapper" id="RsourcesDrp">
+						<ul>
+							<li class="icon-pdf">
+								<a href="assets/docs/en/four_steps_for_effective_coaching.pdf" target="_blank" >Four Steps For Effective Coaching</a>
+							</li>
+							<div class="clearFix"></div>
+						</ul>
+					</div>
+					<!--Shell Resourses starts here -->
+					<!--Shell Help starts here -->
+					<div class="Shellhelp" id="helpDrp">
+						<ul>
+							<li>
+								<div>
+									<small> <span class="SH minus"></span><h3 class="helpNavNenu">Navigational Menu</h3>
+										<p class="helpNavNenuTxt">
+											This button allows the user to access the navigation elements in the course.
+										</p> </small>
+								</div>
+								<div>
+									<small> <span class="SH icon-papabadg"></span><h3 class="helpFunFact">Fun Facts</h3>
+										<p class="helpFunFactTxt">
+											This button will display the fun facts to the user.
+										</p></small>
+								</div>
+							</li>
+							<li>
+								<div>
+									<small> <span class="SH PRogress"></span> <h3 class="sliderTxt">Slider</h3>
+										<p class="helpsliderTxt">
+											This indicates the progress of the animation/audio.
+										</p> </small>
+								</div>
+								<div>
+									<small> <span class="SH play PL"></span> <span class="SH pause PL"></span> <span class="SH replay PL"></span> <h3 class="playTxt">PLAY/PAUSE/REPLAY</h3>
+										<p class="helpPlayTxt">
+											This button toggles between Play/Pause/Replay. This allows the user to play/pause/replay the animation on the particular screen.
+										</p> </small>
+								</div>
+							</li>
+							<li>
+								<div>
+									<small> <span class="SH Back icon-back"></span> <h3 class="backTxt">BACK</h3>
+										<p class="helpBackTxt">
+											This button allows the user to go back to the previous screen.
+										</p> </small>
+								</div>
+								<div>
+									<small> <span class="SH Next icon-next"></span> <h3 class="nextTxt">NEXT</h3>
+										<p class="helpNextTxt">
+											This button allows the user to advance to the next screen.
+										</p> </small>
+								</div>
+							</li>
+							<li>
+								<div>
+									<small>
+										<section class="H_Cstate">
+											<span class="icon-notcompleted helpProgresTxt_1">Indicates the screens that have not been viewed</span>
+											<span class="icon-partialcompleted helpProgresTxt_2">Indicates the screens that are partially viewed</span>
+											<span class="icon-fullyCompleted helpProgresTxt_3">Indicates the screens that have already been viewed</span>
+											<span class="icon-partialcompleted HActive helpProgresTxt_4">Indicates the currently active screen that has been partially viewed</span>
+											<span class="icon-fullyCompleted HActive helpProgresTxt_5">Indicates the currently active screen that has been completely played</span>
+										</section> </small>
+								</div>
+								<div class="HideForIpad">
+									<small> <span class="SH PL icon-soundOn"></span> <span class="SH PL icon-soundOff"></span> <h3 class="audioTxt">AUDIO ON/OFF</h3>
+										<p class="helpAudioTxt">
+											This button toggles between Audio On/Off. This allows the user to on/off the audio in particular screen.
+										</p> </small>
+								</div>
+							</li>
+
+							<li>
+
+								<div class="">
+									<small>
+										<p class="ConclTxt">
+											The course completion status will be marked as ‘Complete’ only after you have visited every screen completely in the course.
+										</p></small>
+								</div>
+								<div>
+									<small> <h3 class="ExitTitleTxt">Exit</h3> <p class="ExitTxt">
+
+										</p> </small>
+								</div>
+							</li>
+							<div class="clearFix"></div>
+						</ul>
+					</div>
+					<!--Shell Help starts here -->
+					<!--Glossary Drop -->
+					<div class="Glossary" id="glossaryDrp">
+						<ul class="alphbet_wraper" id="alphbet_wraper">
+
+						</ul>
+						<div class="glossList">
+							<ul id="GlossaryDescription">
+
+							</ul>
+						</div>
+					</div>
+					<!--//Glossary Drop -->
+					<!--//Course Title -->
+					<div class="CourseTitle-TT Solid-BG">
+						CourseTitle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+					</div>
+					<!--//Course Title -->
+					<!--- Page title ---->
+					
+						<div class="PageTitle-TT Solid-BG">
+							PageTitle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+						</div>
+					<!--- Page title ---->
+					<!--header -->
+					<header>
+						<section class="headerLeft">
+							<div class="common_table">
+								<div class="common_table_Cell">
+									<button id="gadgetsButn" type="button" role="button" aria-label="Toggle Navigation" class="lines-button minus">
+										<span class="lines"></span>
+
+									</button>
+									<div class="Mobseperator"></div>
+									<div class="Papa_indicator icon-papabadg" id="funFactBtn"></div>
+									<h2 class="courseTitle course_title" id="modTitle">Course Disclaimer</h2>
+									<span class="seperator"></span>
+									<h3 class="pageTitle"><span class="page-no">01/12</span><span id="shell_mod_title_bar"></span></h3>
+								</div>
+							</div>
+						</section>
+						<section class="headerRight">
+							<div class="common_table">
+								<div class="common_table_Cell">
+									<span class="Course_Exit exitTxt" id="shell_exit">Exit</span>
+									<span class="seperator"></span>
+									<h1 class="logo"><img class="lang-cn lang-es lang-ru lang-ko" src="assets/image/common/papaJohns.png" alt="Papa John's Logo"></h1>
+								</div>
+							</div>
+						</section>
+						<!--div class="PageTitle-TT Solid-BG">
+							PageTitle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+						</div-->
+					</header>
+					<!--//header -->
+					<!--ShellContantarea -->
+					<article class="shell_pageHolder">
+						<div class="ShellContantarea" id="shell_pageLoader"></div>
+						<!--transcript -->
+						<div class="transcript" id="transcript">
+							<div class="popWraper">
+								<div class="transTitleBar">
+									<div id="shell_r_popup_header" class="">
+										<h2 class="popHeader"><small class="transcriptTitle"> </small><span class="close icon-close" onClick="hidetranscript();" id="shell_t_close"> </span></h2>
+									</div>
+								</div>
+								<div id="transText" class="popScroller"></div>
+							</div>
+						</div>
+						<!--//transcript -->
+					</article>
+					<!--//ShellContantarea -->
+					<section class="Footer footer-holder">
+						<div class="playButton play icon-play"></div>
+						<div id="audio_Icon" class="audioButton icon-soundOn"></div>
+						<div class="shell_all_audio">
+							<div class="f3">
+								<div class="scrubber">
+									<div class="loaded"></div>
+									<div class="progress"></div>
+								</div>
+								<div class="time">
+									<span class="played">00:08</span><small id="divider">/</small>
+									<span class="duration">00:41</span>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div id="splashContainer" class="ShellOverlay Papa_launch">
+			<div class="common_table">
+				<div class="common_table_Cell">
+					<div class="IntroShell">
+						<h1 class="IntroLogo"><img class="lang-cn lang-es lang-ru lang-ko" src="" alt=""></h1>
+						<span class="introDivder"></span>
+						<p class="IntroInstruction introInsTxt">
+
+						</p>
+						<a href="#" id="initLaunchBtn" class="InitButton initTxt"></a>
+						<div class="intronavTourTxt IntroInstruction navLauchTxt">
+							Unfamiliar with using this <span class="brIphone"></span> e-Learning interface? Click <a href="#" onClick="fnLoadNavigationTour(); return false;">here.</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- NavTour section starts here -->
+		<section class="NavTour">
+			<div class="common_table">
+				<div class="common_table_Cell">
+					<div class="shellWrap">
+						<div class="navOverlay">
+							<div class="common_table">
+								<div class="common_table_Cell">
+									<a href="#" id="SkipButton" class="SkipButton Solid-BG"><small>Skip</small></a>
+								</div>
+							</div>
+						</div>
+						<!--Nav next back -->
+						<nav class="nav_nxtBck footer-holder">
+							<div class="common_table">
+								<div class="common_table_Cell">
+									<ul>
+										<li class="back icon-back">
+											<small class="NV-Call-OT-BG NV-Left NVP-Back animNavEl_5 NvTxt05"> This arrow will take you to the previous screen.</small>
+										</li>
+										<li class="MobplayButton icon-play play">
+											<small class="NV-Call-OT-BG NV-Right NVP-Play animNavEl_6 NvTxt06"> This button allows you to play, pause, or replay the animation on the screen. </small>
+										</li>
+										<li class="next icon-next">
+											<small class="NV-Call-OT-BG NV-Right NVP-Next animNavEl_4 NvTxt04"> The arrow on the right will take you to the next screen.</small>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+
+						<!--//Nav next back -->
+
+						<ul class="Shell_menu Shell_menu_nav animNavEl_11">
+							<div class="NV-Call-OT-BG NVP-Menu helpNavNenuTxt animNavEl_14 NvTxt11">
+								The main menu allows you to access other useful components such as the course menu.
+
+							</div>
+							<div class="menuwrapp">
+								<div class="mobLogo"><img class="lang-cn lang-es lang-ru lang-ko" src="assets/image/common/papaJohns.png" alt="Papa John's">
+								</div>
+								<div class="mobBadg">
+									<div class="Papa_indicator icon-papabadg">
+										<small class="NV-Call-OT-BG NV-Left NVP-FunFact animNavEl_12 NvTxt12">This icon displays a fun fact.</small>
+									</div>
+								</div>
+
+								<li>
+									<a href="#"><span></span>COURSE MENU</a>
+
+								</li>
+								<li class="mob_transcript">
+									<a href="#"><span></span>TRANSCRIPT</a>
+								</li>
+								<li class="resourcestat">
+									<a  href="#"><span></span>RESOURCES</a>
+								</li>
+								<li>
+									<a href="#"><span></span>GLOSSARY</a>
+								</li>
+								<li>
+									<a  href="#"><span></span>HELP</a>
+								</li>
+								<li class="Audio">
+									<a href="#"><span></span><small class="audioTxt1">AUDIO ON</small><small class="audioTxt2">AUDIO ON</small></a>
+								</li>
+								<li class="mob_exit">
+									<a href="#"><span></span>EXIT</a>
+								</li>
+							</div>
+							<!--span>The course is paused. Click <span class="icon-wrong"></span> to resume the course.</span-->
+						</ul>
+
+						<!--//Course Title -->
+						<!--div class="CourseTitle-TT Solid-BG">
+						CourseTitle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+						</div-->
+						<!--//Course Title -->
+
+						<!--header -->
+						<header>
+							<section class="headerLeft">
+								<div class="common_table">
+									<div class="common_table_Cell">
+										<button  type="button" role="button" aria-label="Toggle Navigation" class="lines-button minus">
+											<div class="NV-Call-OT-BG NV-left-top NVP-close animNavEl_10 NvTxt10">
+												The main menu allows you to access other useful components such as the course menu.
+											</div>
+											<span class="lines"> </span>
+										</button>
+										<div class="Mobseperator"></div>
+										<div class="Papa_indicator icon-papabadg" >
+											<small class="NV-Call-OT-BG NV-Left NVP-FunFact animNavEl_12 NvTxt12">This icon displays a fun fact.</small>
+										</div>
+										<h2 class="courseTitle">Course Title<small class="NV-Call-OT-BG NV-left-top NVP-courseTitle animNavEl_1 NvTxt01"> Course title</small></h2>
+
+										<span class="seperator"></span>
+										<h3 class="pageTitle"><span class="page-no">01/12 <small class="NV-Call-OT-BG NV-left-top NVP-ScreenNumber animNavEl_3 NvTxt03">The screen counter displays the current screen number and the total number of screens in a course.</small></span> </span> <span>Screen title <small class="NV-Call-OT-BG NV-left-top NVP-ScreenTitle animNavEl_2 NvTxt02">Screen title</small> </span></h3>
+									</div>
+								</div>
+							</section>
+
+							<section class="headerRight">
+								<div class="common_table">
+									<div class="common_table_Cell">
+										<span class="Course_Exit">Exit <small class="NV-Call-OT-BG NV-Right NVP-C-exit animNavEl_13 NvTxt13">The EXIT button allows you to exit the course.</small> </span>
+										<span class="seperator"></span>
+										<h1 class="logo"><img class="lang-cn lang-es lang-ru lang-ko" src="assets/image/common/papaJohns.png" alt="Papa John's"></h1>
+
+									</div>
+								</div>
+							</section>
+
+						</header>
+						<!--//header -->
+
+						<section class="Footer footer-holder">
+							<div class="playButton play icon-play">
+								<small class="NV-Call-OT-BG NV-bottom NVP-Play animNavEl_6 NvTxt06"> This button allows you to play, pause, or replay the animation on the screen. </small>
+							</div>
+							<div class="audioButton icon-soundOn">
+								<small class="NV-Call-OT-BG NV-bottom NVP-Mute animNavEl_7 NvTxt07">The audio button allows you to turn the audio on or off. </small>
+							</div>
+							<div class="shell_all_audio">
+								<div class="f3">
+									<div class="scrubber">
+										<div class="loaded">
+											<small class="NV-Call-OT-BG NV-bottom NVP-progress animNavEl_9 NvTxt09">The progress bar displays the proportion of the screen that has been viewed already.</small>
+										</div>
+										<div class="progress">
+
+										</div>
+									</div>
+									<div class="time">
+										<small class="NV-Call-OT-BG NV-right-bottom NVP-ScreenTime animNavEl_8 NvTxt08">The runtime counter displays the time elapsed and the total duration of each screen.</small>
+										<span class="played">00:08</span><small>/</small>
+										<span class="duration">00:41</span>
+									</div>
+								</div>
+
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- //NavTour section Ends here -->
+
+		<div id="jquery_jplayer"></div>
+		<!--  -->
+		<div id="debug-mq">
+			<span id="sizeJS" >JS:(w-h)</span>
+			<span id="sizeA" >(0-300)</span>
+			<span id="sizeB" >(301-310)</span>
+			<span id="sizeC" >(311-320)</span>
+			<span id="sizeD" >(321-330)</span>
+			<span id="sizeE" >(331-340)</span>
+			<span id="sizeF" >(341-350)</span>
+			<span id="sizeG" >(351-360)</span>
+			<span id="sizeH" >(361-370)</span>
+			<span id="sizeI" >(371-380)</span>
+			<span id="sizeJ" >(381-390)</span>
+			<span id="sizeK" >(391-400)</span>
+			<span id="sizeL" >(401-410)</span>
+			<span id="sizeM" >(411-420)</span>
+			<span id="sizeN" >(421-430)</span>
+			<span id="sizeO" >(431-440)</span>
+			<span id="sizeP" >(441-450)</span>
+			<span id="sizeQ" >(451-460)</span>
+			<span id="sizeR" >(461-470)</span>
+			<span id="sizeS" >(471-480)</span>
+			<span id="sizeT" >(481-490)</span>
+			<span id="sizeU" >(491-500)</span>
+			<span id="sizeV" >(501-510)</span>
+			<span id="sizeW" >(511-520)</span>
+			<span id="sizeX" >(521-550)</span>
+			<span id="sizeY" >(551-540)</span>
+			<span id="sizeZ" >(541-550)</span>
+			<span id="sizeAA" >(551-560)</span>
+			<span id="sizeAB" >(561-570)</span>
+			<span id="sizeAC" >(571-580)</span>
+			<span id="sizeAD" >(581-590)</span>
+			<span id="sizeAE" >(591-600)</span>
+			<span id="sizeAF" >(601-610)</span>
+			<span id="sizeAG" >(611-620)</span>
+			<span id="sizeAH" >(621-660)</span>
+			<span id="sizeAI" >(661-640)</span>
+			<span id="sizeAJ" >(641-650)</span>
+			<span id="sizeAK" >(651-660)</span>
+			<span id="sizeAL" >(661-670)</span>
+			<span id="sizeAM" >(671-680)</span>
+			<span id="sizeAN" >(681-690)</span>
+			<span id="sizeAO" >(691-700)</span>
+			<span id="sizeAP" >(701-710)</span>
+			<span id="sizeAQ" >(711-720)</span>
+			<span id="sizeAR" >(721-770)</span>
+			<span id="sizeAS" >(771-740)</span>
+			<span id="sizeAT" >(741-750)</span>
+			<span id="sizeAU" >(751-760)</span>
+			<span id="sizeAV" >(761-770)</span>
+			<span id="sizeAW" >(771-780)</span>
+			<span id="sizeAX" >(781-790)</span>
+			<span id="sizeAY" >(791-800)</span>
+			<span id="sizeAZ" >(801-810)</span>
+			<span id="sizeBA" >(811-820)</span>
+			<span id="sizeBB" >(821-880)</span>
+			<span id="sizeBC" >(881-840)</span>
+			<span id="sizeBD" >(841-850)</span>
+			<span id="sizeBE" >(851-860)</span>
+			<span id="sizeBF" >(861-870)</span>
+			<span id="sizeBG" >(871-880)</span>
+			<span id="sizeBH" >(881-890)</span>
+			<span id="sizeBI" >(891-900)</span>
+			<span id="sizeBJ" >(901+)</span>
+		</div>
+		<!--  -->
+	</body>
+</html>

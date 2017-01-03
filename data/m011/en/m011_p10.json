@@ -1,0 +1,53 @@
+{
+	"ExternalData": [
+		{
+			"leading-Txt": {
+				"text": "The dough dolly is:",
+				"description": ""
+			},
+
+			"li_text-1": {
+				"text": "A low, flat, wheeled cart used for moving dough trays",
+				"description": ""
+			},
+			
+			"li_text-2": {
+				"text": "Used to stack dough trays in the walk-in cooler",
+				"description": ""
+			},
+
+ 			"instrctn_txt": {
+				"text": "Click each tab to learn more.",
+				"description": ""
+			},
+			"hd1": {
+				"text": "Load Management  <span class='show_hide'></span>",
+				"description": ""
+			},
+			"hd2": {
+				"text": "Ease of Carrying  <span class='show_hide'></span>",
+				"description": ""
+			},
+			"hd3": {
+				"text": "Correct Position   <span class='show_hide'></span>",
+				"description": ""
+			},
+ 			"l1_item1": {
+				"text": "Don’t move too many trays at once—you can hurt your back.",
+				"description": ""
+			},
+			"l1_item2": {
+				"text": "If you don’t use the dough dolly, you might drop the dough trays.",
+				"description": ""
+			},
+			"l1_item3": {
+				"text": "Dough dolly with an empty tray on the bottom of the dough stack elevates the dough trays.",
+				"description": ""
+			},
+ 			"transcript": {
+				"text": ["<p>Do you know how the heavy stacks of dough trays are moved around? That’s where the dough dollies help us. The dough dolly is a low, flat, wheeled cart used for moving dough trays around the restaurant. Even in the walk-in cooler, dough trays are kept stacked on dough dollies. It is important to use a dough dolly whenever you move dough from one place to another. It helps in load management, ease of carrying, and putting trays in correct position. Click each tab to learn more.</p>","<p>If you try to move too many trays at once, you could seriously hurt your back. Never lift more than three trays of dough at a time.</p>","<p>If you don’t use the dough dolly, you run the risk of dropping the dough trays. This would mean the dough would have to be discarded, and you may end up hurting yourself or someone else.</p>","<p>Remember, dough trays should never touch the floor or the ground directly. Using a dough dolly with an empty tray on the bottom of the stack of dough keeps the dough trays elevated off of the floor. Use a white empty tray on the bottom of the stack of dough to differentiate it from the trays with dough.</p>"],
+				"description": ""
+			}
+		}
+	]
+}

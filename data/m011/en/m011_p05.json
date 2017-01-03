@@ -1,0 +1,36 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1":{
+				"text" :"Yeast feeds on sugar and makes the dough rise.",
+				"description" :""
+			} ,
+			"txtVar_2":{
+				"text" :"Yeast “eats” the sugar and releases CO<sub>2</sub> <span class='arrw'></span>  fermentation",
+				"description" :""
+			} ,
+			"txtVar_3":{
+				"text" :"Fermentation causes the dough to “proof” and expands the cells, causing the dough to rise.",
+				"description" :""
+			} ,
+			"txtVar_4":{
+				"text" :"When properly proofed, the dough balls double in volume compared to when they arrived from the Quality Control Center (QCC).",
+				"description" :""
+			} ,
+			"txtVar_5":{
+				"text" :"Sugar",
+				"description" :""
+			} ,
+			"txtVar_6":{
+				"text" :"Yeast",
+				"description" :""
+			} ,
+			"transcript":{
+				"text" :["<p>You learned that yeast is the ingredient that causes the dough to rise. It’s a living organism that literally feeds on sugar.</p><p>As the yeast “eats” the sugar, it releases carbon dioxide gas. This process is called fermentation.</p><p>This fermentation process causes the dough to rise or “proof” as the gas is collected in tiny air cells. As fermentation progresses, cells keep expanding, causing the dough to rise. This makes the dough ball grow in size.</p><p>When properly proofed, the dough balls in the tray will double in volume compared to when they arrived from the Quality Control Center (or QCC).</p>"],
+				"description" :""
+			}
+
+		}
+	]
+}

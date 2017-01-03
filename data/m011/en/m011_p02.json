@@ -1,0 +1,32 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1":{
+				"text" :"Lorem ipsum dolor sit amet",
+				"description" :""
+			} ,
+			"txtVar_2":{
+				"text" :"Suas oportere reprehendunt cu sit.",
+				"description" :""
+			} ,
+			"txtVar_3":{
+				"text" :"Lorem ipsum dolor sit amet",
+				"description" :""
+			} ,
+			"txtVar_4":{
+				"text" :"Suas oportere reprehendunt cu sit.",
+				"description" :""
+			} ,
+			"txtVar_5":{
+				"text" :"Suas oportere reprehendunt cu sit.",
+				"description" :""
+			} ,
+			"transcript":{
+				"text" :["<p>Lorem ipsum dolor sit amet, aperiam detraxit sed in, doctus appellantur no pro. Duis dictas salutandi mei id, quodsi patrioque vix eu, cu quo dolorum singulis. Ut habemus comprehensam duo, soluta molestie vel id, at eos nostro scaevola. Suas oportere reprehendunt cu sit. Purto summo conceptam sit eu, duo an atqui facilisis dignissim. Liber splendide quo ea, vis quis errem referrentur eu.</p>"],
+				"description" :""
+			}
+
+		}
+	]
+}

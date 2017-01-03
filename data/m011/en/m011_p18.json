@@ -1,0 +1,43 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1": {
+				"text": "You have now completed the course—Preparing the Original Dough. ",
+				"description": ""
+			} ,
+			"txtVar_2": {
+				"text": "Click <span class='page_exit'>EXIT</span> to close the course window and receive credit.",
+				"description": ""
+			} ,
+			"txtVar_3": {
+				"text": "Note: If you click the <span class='icon-wrong'></span>button on your browser window, you will not receive credit for this course and your progress will not be saved.",
+				"description": ""
+			} ,
+			"txtVar_4": {
+				"text": "You have not completed  all the screens in this course and will  not receive full credit for the course. Click the Course Menu to view the screens that you should complete.",
+				"description": ""
+			} ,
+			"txtVar_5": {
+				"text": "If you want to exit the course now, your progress will be saved and you will be able to resume the course later.<br>Click <span class='page_exit'>EXIT</span> to close the course window.",
+				"description": ""
+			} ,
+			"txtVar_6": {
+				"text": "Note: If you click the <span class='icon-wrong'></span> icon  on your browser window,  your progress will not be saved.",
+				"description": ""
+			} ,
+			"caption_1": {
+				"text": "We Fly Abroad",
+				"description": ""
+			} ,
+			"caption_2": {
+				"text": "And we are still growing...",
+				"description": ""
+			} ,
+			"transcript": {
+				"text": ["<p> You have not completed all the screens in this course and will not receive full credit for the course. Click the Course Menu to view the screens that you should complete.</p>","<p>Congratulations! You have now completed the course—Preparing the Original Dough. Click <strong>EXIT</strong> to quit the course.</p>"],
+				"description": ""
+			}
+		}
+	]
+}

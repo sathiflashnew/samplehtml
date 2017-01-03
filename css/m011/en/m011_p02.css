@@ -1,0 +1,97 @@
+.pageWrapper{
+	width:100%;
+	height: 100%;}
+.objectiveWrapper{
+	position:relative;
+	border:1px solid #b4a8a5;
+	text-align:left;
+	padding:20px;
+	min-height:160px;}
+.objective_imgwrap {
+    background: #f7f7f7;
+    border: 1px solid #b4a8a5;
+    border-radius: 50%;
+    height: 300px;
+    position: absolute;
+    right: 5px;
+    top: -50px;
+    width: 300px;
+}
+
+.OBJ {
+    border-radius: 50%;
+    height: 250px;
+    margin: 46px 29px 29px 28px;
+    width: 250px;
+}
+
+ul.list_style {
+    padding-right: 295px;
+}
+@media only screen and (max-device-width: 800px){
+	
+	ul.list_style {
+		padding-right: 0px;
+	}
+.objectiveWrapper {
+    bottom: 200px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.objective_imgwrap {
+    bottom: -150px;
+    left: 50%;
+    margin-left: -150px;
+    right: initial;
+    top: initial;
+    z-index: 1;
+}
+
+}
+@media only screen and (max-width: 700px){
+
+.objectiveWrapper {
+    bottom: initial;
+    left: initial;
+    position: initial;
+    right: initial;
+    top: initial;
+	margin-top:20px;
+}
+.objective_imgwrap {
+    bottom: initial;
+    left: initial;
+    margin:0 auto -135px;
+    position: initial;
+	position: inherit;
+    right: initial;
+    top: initial;
+    z-index: 1;
+	width:250px;
+	height:250px;
+}
+
+.objectiveWrapper {
+    border: 1px solid #6a514c;
+    padding:20px 20px 0;
+    text-align: left;
+	margin:20px auto;
+	position:inherit;
+	position:initial;
+	bottom:initial;
+	left:initial;
+	
+    right: initial;
+    top: initial;
+}
+.OBJ {
+    border-radius: 50%;
+    height: 220px;
+    margin: 26px 29px 29px 17px;
+    width: 220px;
+}
+
+}

@@ -1,0 +1,16 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1":{
+				"text" :"Numbered markers clipped to the dough trays indicating the time of the day that the trays are projected for use for the current day.",
+				"description" :""
+			} ,
+			"transcript":{
+				"text" :["<p>How do we identify the time that the trays are projected for use? Dough tags are numbered markers that are clipped to dough trays. The numbers indicate the time that the trays are projected for use for the current day.</p>"],
+				"description" :""
+			}
+
+		}
+	]
+}

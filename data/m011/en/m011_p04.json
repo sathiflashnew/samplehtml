@@ -1,0 +1,48 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1":{
+				"text" :"Keeping the menu simple allows us to focus on the quality of our product by using only superior quality ingredients.",
+				"description" :""
+			} ,
+			"txtVar_2":{
+				"text" :"The ingredients used to make pizza dough are:",
+				"description" :""
+			} ,
+			"txtVar_3":{
+				"text" :"Water",
+				"description" :""
+			} ,
+			"txtVar_4":{
+				"text" :"Flour",
+				"description" :""
+			} ,
+			"txtVar_5":{
+				"text" :"Yeast",
+				"description" :""
+			} ,
+			"txtVar_6":{
+				"text" :"Salt",
+				"description" :""
+			} ,
+			"txtVar_7":{
+				"text" :"Sugar ",
+				"description" :""
+			},
+			"txtVar_8":{
+				"text" :"Oil ",
+				"description" :""
+			},
+			"txtVar_9":{
+				"text" :"Yeast causes the dough to rise. ",
+				"description" :""
+			},
+			"transcript":{
+				"text" :["<p>For thousands of years, people have been making and eating different kinds of bread. </p><p>Pizza dough, which is a flatbread, is made from the same simple bread ingredients our ancestors used: water, flour, yeast, and salt.</p><p>At Papa John’s, we add a bit of sugar and oil. The result is our famous fresh, delicious, bread-like original crust.</p><p>Did you know which of these ingredients cause the dough to rise? It is the yeast.</p>"],
+				"description" :""
+			}
+
+		}
+	]
+}

@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta http-equiv="x-ua-compatible" content="IE=edge" >
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="Aptara Hive Ant Build: [@module@-@lang@] @buildDate@, @buildTime@">
+		<meta name="description" content="PJI Templates">
+		<meta name="author" content="@author@">
+		<meta name="keywords" content="@module_keywords@">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>@module_title@</title>
+		<link rel="stylesheet" type="text/css" href="css/common/shell-arabic.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/arabic-fontStyle.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/arabic-global_style.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/libs/magnific-popup.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/libs/jquery.mCustomScrollbar.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/libs/mediaelementplayer.css" />
+		<!-- Libs -->
+		<script src="js/common/libs/jquery-1.10.2.min.js"></script>
+		<script src="js/common/libs/jquery-ui.js"></script>
+		<script src="js/common/libs/jquery.ui.touch-punch.js"></script>
+		<script src="js/common/libs/jquery.touchSwipe.min.js"></script>
+		<script src="js/common/libs/TweenMax.min.js"></script>
+		<script src="js/common/libs/jquery.magnific-popup.min.js"></script>
+		<script src="js/common/libs/jquery.easyModal.js"></script>
+		<script src="js/common/libs/jquery.mCustomScrollbar.js"></script>
+		<script src="js/common/libs/addEventListener.js"></script>
+		<script src="js/common/libs/jpreloader.min.js"></script>
+		<script src="js/common/libs/mediaElement/mediaelement-and-player.min.js"></script>
+		<script src="js/common/blue-mobile.js"></script>
+		<script src="js/common/xmlParser.js"></script>
+		<script src="js/common/DetectDevice.js"></script>
+		<script src="js/common/browserDetect.js"></script>
+		<script src="js/common/BgLoader.js"></script>
+		<script src="js/common/AudioPlayer.js"></script>
+		<script src="js/common/Shell.js"></script>
+		<script src="js/common/Controller.js"></script>
+		<script src="js/common/AnimUtils.js"></script>
+		<script src="js/common/Model.js"></script>
+		<script src="js/common/scorm_api.js"></script>
+		<script src="js/common/SCORMHandler.js"></script>
+		<script src="js/common/Menu.js"></script>
+		<script src="js/common/glossary.js"></script>
+		<script src="js/common/imageLoader.js"></script>
+		<script src="js/common/EventManager.js"></script>
+		<script src="js/common/ProgressiveLoader.js"></script>
+        <script src="js/common/NavigationTour.js"></script>
+		<script type="text/javascript">
+			function LMSExit() {
+				try {
+					finish();
+				} catch(e) {
+				}
+			}
+		</script>
+		<script type="text/javascript">
+			if (navigator.userAgent.match(/iPad;.*CPU.*OS 7_\d/i)) {
+				$('html').addClass('ipad ios7');
+			}
+		</script>
+
+		<script type="text/javascript" src="js/common/styleswitcher.js"></script>
+		<style>
+			.styleswitcher {
+				left: 0;
+				position: absolute;
+				top: -40px;
+				display: none;
+			}
+			.styleswitcher a {
+				float: left;
+				display: block;
+				text-decoration: none;
+				padding: 10px;
+				color: #fff;
+			}
+		</style>
+		<!--[if lt IE 9]>
+		<noscript>
+		<link rel="stylesheet" href="css/common/ie9fallback.css">
+		</noscript>
+		<![endif]-->
+	</head>
+	<body class="Arabic RTL" onUnload="LMSExit()">
+		<!--Course Exit Done -->
+		<div id="shell_e_ppopup" class="ShellOverlay">
+			<div class="common_table">
+				<div class="common_table_Cell">
+					<div class="exitPopupWrap">
+						<div class="pop_wrapper">
+							<p class="exitInsTxt">
+								Are you sure you want to exit?
+							</p>
+							<div class="ClearFix"></div>
+							<ul class="exit">
+								<li id="shell_yes_btn" class="yesTxt">
+									Yes
+								</li>
+								<li id="shell_no_btn" class="noTxt">
+									No
+								</li>
+								<div class="ClearFix"></div>
+							</ul>
+							<div class="ClearFix"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//Course Exit -->
+		<!--LMS Resume not Done -->
+		<div id="shell_e_ppopup" class="ShellOverlay resume">
+			<div class="common_table">
+				<div class="common_table_Cell">
+					<div class="exitPopupWrap">
+						<div class="pop_wrapper">
+							<p class="exitInsTxt1 lmsbookmarkTxt">
+								Would you like to continue from the page you visited in your last session? Click Yes to continue or click No to start from the first page.
+							</p>
+							<div class="ClearFix"></div>
+
+							<ul class="exit">
+								<li class="yes_btn">
+									<span class="yesTxt1">Yes</span>
+								</li>
+								<li class="no_btn">
+									<span class="noTxt1">No</span>
+								</li>
+								<div class="clearFix"></div>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//LMS Resume -->
+		<!--Fun facts Done -->
+		<div class="common_table">
+			<div class="common_table_Cell">
+				<div class="shellWrap">
+					<div class="FunFactWapr">
+						<div class="FunFactWaprvideo">
+							<video id="bgvid" class="desk">
+								<source src="assets/video/common/funfact_desk.mp4" type="video/mp4">
+							</video>
+							<div id="iVideoWrap">
+								<video id="bgvid_ipad" class="ipad">
+									<source src="assets/video/common/funfact_ipad.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
+						<div class="FunFact_BK"></div>
+						<div class="common_table">
+							<div class="common_table_Cell">
+								<div class="FunFactcontntWapr">
+									<h2 class="fn_fct">Fun Fact</h2>
+									<div class="FunFactQuoteCnt">
+										<div class="FunFactQuoteInner">
+											<p>
+												John Schnatter always says: "Great service can save an OK pizza, but a great pizza cannot save bad customer service."
+											</p>
+										</div>
+									</div>
+									<div id="FFBackBtn" class="FunFactBtn fn_fct_bck">
+										Close
+									</div>
+									<div class="clearFix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="preloaderSpinner" class="ShellOverlay">
+						<div class="common_table">
+							<div class="common_table_Cell">
+								<div class="loaderwrap">
+									<div class="loader">
+										<span> <img src="assets/image/common/pji_loader.png" /> </span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--inner preloader-->
+					<div id="preloaderSpinner_int" class="Int_Preloader">
+						<div class="common_table">
+							<div class="common_table_Cell">
+								<img src="assets/image/common/loader.gif" />
+							</div>
+						</div>
+					</div>
+					<!--inner preloader-->
+					<div id="deviceLaunch"  class="ShellOverlay">
+						<div class="common_table">
+							<div class="common_table_Cell">
+								<div id="triggerBtn" class="Intro_button icon-play "></div>
+							</div>
+						</div>
+					</div>
+					<div class="styleswitcher">
+						<a href="#" onClick="setActiveStyleSheet('default'); return false;">Green</a><a href="#" onClick="setActiveStyleSheet('alternate 2'); return false;">Red</a>
+					</div>
+					<!--Nav next back -->
+					<nav class="nav_nxtBck footer-holder">
+						<div class="common_table">
+							<div class="common_table_Cell">
+								<ul>
+									<li class="back icon-back" id="shell_next"></li>
+									<li class="MobplayButton icon-play play"></li>
+									<li class="next icon-next" id="shell_back"></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+
+					<!--//Nav next back -->
+					<div id="bgAudioHolder" style="display:none;">
+						<!--audio id="bg_audio" controls>
+							<source id="mp3_src" src="assets/audio/common/en/mute.mp3" type="audio/mp3">
+							Your browser does not support the audio element.
+						</audio-->
+					</div>
+					<div id="tracer" style="display:none;">
+						tracer
+					</div>
+					<!--//Nav next back -->
+					<!-- This will display when the menu is open in mobile -->
+					<div class="ShellOverlay menuovrlay"></div>
+					<!-- This will display when the menu open -->
+					<!-- Shell Menu starts here -->
+					<ul id="Shell_menu" class="Shell_menu">
+						<div class="menuwrapp">
+							<div class="mobLogo"><img class="lang-ar" src="assets/image/common/papaJohns_ar.png" alt="Papa John's Logo">
+							</div>
+							<div class="mobBadg">
+								<div class="Papa_indicator icon-papabadg" id="FFMBtn"></div>
+							</div>
+							<li>
+								<a id="menubtn" href="#" class="courseMenuTxt">COURSE MENU</a>
+							</li>
+                            <li class="mob_transcript">
+								<a id="shell_transcript" href="#" class="transcriptTxt"><span></span>TRANSCRIPT</a>
+							</li>
+							<li class="resourcestat">
+								<a id="Resourcesbtn" href="#" class="resourcesTxt"><span></span>RESOURCES</a>
+							</li>
+							<li>
+								<a id="glossarybtn" href="#" class="glossaryTxt">GLOSSARY</a>
+							</li>
+							<li>
+								<a id="helpbtn" href="#" class="helpTxt">HELP</a>
+							</li>
+							<li class="Audio">
+								<a id="shell_mute" href="#"><span></span><small class="audioTxt1">AUDIO ON</small><small class="audioTxt2">AUDIO ON</small></a>
+							</li>
+							<li class="mob_exit">
+								<a id="Mob_shell_exit" href="#" class="exitTxt">EXIT</a>
+							</li>
+						</div>
+						<span class="menu_close_txt">The course is paused. Click <span class="icon-wrong"></span> to resume the course.</span>
+					</ul>
+					<!--Shell Menu starts here -->
+					<!--Shell Menu starts here -->
+					<div class="ShellMenuWrapper" id="Menudrp"></div>
+					<!--//Shell Menu starts here -->
+					<!--Shell Resourses starts here -->
+					<div class="ShellResourseWrapper" id="RsourcesDrp">
+						<ul>
+							<li class="icon-pdf">
+								<a href="assets/docs/en/four_steps_for_effective_coaching.pdf" target="_blank" >Four Steps For Effective Coaching</a>
+							</li>
+							<div class="clearFix"></div>
+						</ul>
+					</div>
+					<!--Shell Resourses starts here -->
+					<!--Shell Help starts here -->
+					<div class="Shellhelp" id="helpDrp">
+						<ul>
+							<li>
+								<div>
+									<small> <span class="SH minus"></span><h3 class="helpNavNenu">Navigational Menu</h3>
+										<p class="helpNavNenuTxt">
+											This button allows the user to access the navigation elements in the course.
+										</p> </small>
+								</div>
+								<div>
+									<small> <span class="SH icon-papabadg"></span><h3 class="helpFunFact">Fun Facts</h3>
+										<p class="helpFunFactTxt">
+											This button will display the fun facts to the user.
+										</p></small>
+								</div>
+							</li>
+							<li>
+								<div>
+									<small> <span class="SH PRogress"></span> <h3 class="sliderTxt">Slider</h3>
+										<p class="helpsliderTxt">
+											This indicates the progress of the animation/audio.
+										</p> </small>
+								</div>
+								<div>
+									<small> <span class="SH play PL"></span> <span class="SH pause PL"></span> <span class="SH replay PL"></span> <h3 class="playTxt">PLAY/PAUSE/REPLAY</h3>
+										<p class="helpPlayTxt">
+											This button toggles between Play/Pause/Replay. This allows the user to play/pause/replay the animation on the particular screen.
+										</p> </small>
+								</div>
+							</li>
+							<li>
+								<div>
+									<small> <span class="SH Back icon-back"></span> <h3 class="backTxt">BACK</h3>
+										<p class="helpBackTxt">
+											This button allows the user to go back to the previous screen.
+										</p> </small>
+								</div>
+								<div>
+									<small> <span class="SH Next icon-next"></span> <h3 class="nextTxt">NEXT</h3>
+										<p class="helpNextTxt">
+											This button allows the user to advance to the next screen.
+										</p> </small>
+								</div>
+							</li>
+							<li>
+								<div>
+									<small>
+										<section class="H_Cstate">
+											<span class="icon-notcompleted helpProgresTxt_1">Indicates the screens that have not been viewed</span>
+											<span class="icon-partialcompleted helpProgresTxt_2">Indicates the screens that are partially viewed</span>
+											<span class="icon-fullyCompleted helpProgresTxt_3">Indicates the screens that have already been viewed</span>
+											<span class="icon-partialcompleted HActive helpProgresTxt_4">Indicates the currently active screen that has been partially viewed</span>
+											<span class="icon-fullyCompleted HActive helpProgresTxt_5">Indicates the currently active screen that has been completely played</span>
+										</section> </small>
+								</div>
+								<div class="HideForIpad">
+									<small> <span class="SH PL icon-soundOn"></span> <span class="SH PL icon-soundOff"></span> <h3 class="audioTxt">AUDIO ON/OFF</h3>
+										<p class="helpAudioTxt">
+											This button toggles between Audio On/Off. This allows the user to on/off the audio in particular screen.
+										</p> </small>
+								</div>
+							</li>
+							
+							
+							
+							
+							<li>
+
+								<div class="HideForIpad">
+									<small>
+										<p class="ConclTxt">
+											The course completion status will be marked as ‘Complete’ only after you have visited every screen completely in the course.
+										</p></small>
+								</div>
+								<div>
+									<small> <h3 class="ExitTitleTxt">Exit</h3> <p class="ExitTxt hlp_ext"></p> </small>
+								</div>
+							</li>
+							<div class="clearFix"></div>
+						</ul>
+					</div>
+					<!--Shell Help starts here -->
+					<!--Glossary Drop -->
+					<div class="Glossary" id="glossaryDrp">
+						<ul class="alphbet_wraper" id="alphbet_wraper"></ul>
+						<div class="glossList">
+							<ul id="GlossaryDescription"></ul>
+						</div>
+					</div>
+					<!--//Glossary Drop -->
+					<!--//Course Title -->
+					<div class="CourseTitle-TT Solid-BG">
+						CourseTitle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+					</div>
+					<!--//Course Title -->
+					<!--header -->
+					<header>
+						<section class="headerLeft">
+							<div class="common_table">
+								<div class="common_table">
+									<div class="common_table_Cell">
+										<button id="gadgetsButn" type="button" role="button" aria-label="Toggle Navigation" class="lines-button minus">
+											<span class="lines"></span>
+										</button>
+										<div class="Mobseperator"></div>
+										<div class="Papa_indicator icon-papabadg" id="funFactBtn"></div>
+										<h2 class="courseTitle course_title" id="modTitle">Course Disclaimer</h2>
+
+										<span class="seperator"></span>
+										<h3 class="pageTitle"><span class="page-no">01/12</span><span id="shell_mod_title_bar">Course Disclaimer</span></h3>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="headerRight">
+							<div class="common_table">
+								<div class="common_table_Cell">
+									<span class="Course_Exit exitTxt" id="shell_exit">Exit</span><span class="seperator"></span>
+									<h1 class="logo"><img class="lang-ar" src="assets/image/common/papaJohns_ar.png" alt="Papa John's Logo"></h1>
+								</div>
+							</div>
+						</section>
+						<div class="PageTitle-TT Solid-BG">
+							PageTitle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+						</div>
+					</header>
+					<!--//header -->
+					<!--ShellContantarea -->
+					<article class="shell_pageHolder">
+						<div class="ShellContantarea" id="shell_pageLoader"></div>
+						<!--transcript -->
+						<div class="transcript" id="transcript">
+							<div class="popWraper">
+								<div class="transTitleBar">
+									<div id="shell_r_popup_header" class="">
+										<h2 class="popHeader ">النسخة المقروءة <span class="close icon-close" onClick="hidetranscript();" id="shell_t_close"> </span></h2>
+									</div>
+								</div>
+								<div id="transText" class="popScroller"></div>
+							</div>
+						</div>
+						<!--//transcript -->
+					</article>
+					<!--//ShellContantarea -->
+					<section class="Footer footer-holder">
+						<div class="playButton play icon-play"></div>
+						<div id="audio_Icon" class="audioButton icon-soundOn"></div>
+						<div class="shell_all_audio">
+							<div class="f3">
+								<div class="scrubber">
+									<div class="loaded"></div>
+									<div class="progress"></div>
+								</div>
+								<div class="time">
+									<span class="duration">00:41</span><small id="divider">/</small><span class="played">00:08</span>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div id="splashContainer" class="ShellOverlay Papa_launch">
+			<div class="common_table">
+				<div class="common_table_Cell">
+					<div class="IntroShell">
+						<h1 class="IntroLogo"><img class="lang-ar" src="assets/image/common/papaJohns_launch_ar.png" alt="papa John's"></h1>
+						<span class="introDivder"></span>
+						<p class="IntroInstruction">
+							انقر فوق الزر لبدء الدورة التدريبية.
+						</p>
+						<a href="#" id="initLaunchBtn" class="InitButton">بدء</a>
+						<div class="intronavTourTxt IntroInstruction navLauchTxt">
+							Click <a href="#" onClick="fnLoadNavigationTour(); return false;">here</a> to launch the Navigation tour.
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- NavTour section starts here -->
+		<section class="NavTour">
+			<div class="common_table">
+				<div class="common_table_Cell">
+					<div class="shellWrap">
+						<div class="navOverlay">
+							<div class="common_table">
+								<div class="common_table_Cell">
+									<a href="#" id="SkipButton" class="SkipButton Solid-BG"><small>Skip</small></a>
+								</div>
+							</div>
+						</div>
+						<!--Nav next back -->
+						<nav class="nav_nxtBck footer-holder">
+							<div class="common_table">
+								<div class="common_table_Cell">
+									<ul>
+										<li class="back icon-back">
+											<small class="NV-Call-OT-BG NV-Left NVP-Back animNavEl_5 NvTxt05"> This arrow will take you to the previous screen.</small>
+										</li>
+										<li class="MobplayButton icon-play play">
+											<small class="NV-Call-OT-BG NV-Right NVP-Play animNavEl_6 NvTxt06"> This button allows you to play, pause, or replay the animation on the screen. </small>
+										</li>
+										<li class="next icon-next">
+											<small class="NV-Call-OT-BG NV-Right NVP-Next animNavEl_4 NvTxt04"> The arrow on the right will take you to the next screen.</small>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+
+						<!--//Nav next back -->
+
+						<ul class="Shell_menu Shell_menu_nav animNavEl_11">
+							<div class="NV-Call-OT-BG NVP-Menu helpNavNenuTxt animNavEl_14 NvTxt11">
+								The main menu allows you to access other useful components such as the course menu.
+
+							</div>
+							<div class="menuwrapp">
+								<div class="mobLogo"><img class="lang-cn lang-es lang-ru" src="assets/image/common/papaJohns.png" alt="Papa John's">
+								</div>
+								<div class="mobBadg">
+									<div class="Papa_indicator icon-papabadg">
+										<small class="NV-Call-OT-BG NV-Left NVP-FunFact animNavEl_12 NvTxt12">This icon displays a fun fact.</small>
+									</div>
+								</div>
+
+								<li>
+									<a href="#"><span></span>COURSE MENU</a>
+
+								</li>
+								<li class="mob_transcript">
+									<a href="#"><span></span>TRANSCRIPT</a>
+								</li>								
+                                <li class="resourcestat">
+									<a  href="#"><span></span>RESOURCES</a>
+								</li>
+								<li>
+									<a href="#"><span></span>GLOSSARY</a>
+								</li>
+								<li>
+									<a  href="#"><span></span>HELP</a>
+								</li>
+								<li class="Audio">
+									<a href="#"><span></span><small class="audioTxt1">AUDIO ON</small><small class="audioTxt2">AUDIO ON</small></a>
+								</li>
+								<li class="mob_exit">
+									<a href="#"><span></span>EXIT</a>
+								</li>
+							</div>
+							<!--span>The course is paused. Click <span class="icon-wrong"></span> to resume the course.</span-->
+						</ul>
+
+						<!--//Course Title -->
+						<!--div class="CourseTitle-TT Solid-BG">
+						CourseTitle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+						</div-->
+						<!--//Course Title -->
+
+						<!--header -->
+						<header>
+							<section class="headerLeft">
+								<div class="common_table">
+									<div class="common_table_Cell">
+										<button  type="button" role="button" aria-label="Toggle Navigation" class="lines-button minus">
+											<div class="NV-Call-OT-BG NV-left-top NVP-close animNavEl_10 NvTxt10">
+										The main menu allows you to access other useful components such as the course menu.</div>
+											<span class="lines">
+												
+											</span>
+										</button>
+										<div class="Mobseperator"></div>
+										<div class="Papa_indicator icon-papabadg" >
+											<small class="NV-Call-OT-BG NV-Left NVP-FunFact animNavEl_12 NvTxt12">This icon displays a fun fact.</small>
+										</div>
+										<h2 class="courseTitle">Course Title<small class="NV-Call-OT-BG NV-left-top NVP-courseTitle animNavEl_1 NvTxt01"> Course title</small></h2>
+
+										<span class="seperator"></span>
+										<h3 class="pageTitle"><span class="page-no">01/12 <small class="NV-Call-OT-BG NV-left-top NVP-ScreenNumber animNavEl_3 NvTxt03">The screen counter displays the current screen number and the total number of screens in a course.</small></span> </span> <span>Screen title <small class="NV-Call-OT-BG NV-left-top NVP-ScreenTitle animNavEl_2 NvTxt02">Screen title</small> </span></h3>
+									</div>
+								</div>
+							</section>
+
+							<section class="headerRight">
+								<div class="common_table">
+									<div class="common_table_Cell">
+										<span class="Course_Exit">Exit <small class="NV-Call-OT-BG NV-Right NVP-C-exit animNavEl_13 NvTxt13">The EXIT button allows you to exit the course.</small> </span>
+										<span class="seperator"></span>
+										<h1 class="logo"><img class="lang-cn lang-es lang-ru" src="assets/image/common/papaJohns.png" alt="Papa John's"></h1>
+
+									</div>
+								</div>
+							</section>
+
+						</header>
+						<!--//header -->
+
+						<section class="Footer footer-holder">
+							<div class="playButton play icon-play">
+								<small class="NV-Call-OT-BG NV-bottom NVP-Play animNavEl_6 NvTxt06"> This button allows you to play, pause, or replay the animation on the screen. </small>
+							</div>
+							<div class="audioButton icon-soundOn">
+								<small class="NV-Call-OT-BG NV-bottom NVP-Mute animNavEl_7 NvTxt07">The audio button allows you to turn the audio on or off. </small>
+							</div>
+							<div class="shell_all_audio">
+								<div class="f3">
+									<div class="scrubber">
+										<div class="loaded"><small class="NV-Call-OT-BG NV-bottom NVP-progress animNavEl_9 NvTxt09">The progress bar displays the proportion of the screen that has been viewed already.</small></div>
+										<div class="progress">
+											
+										</div>
+									</div>
+									<div class="time">
+										<small class="NV-Call-OT-BG NV-right-bottom NVP-ScreenTime animNavEl_8 NvTxt08">The runtime counter displays the time elapsed and the total duration of each screen.</small>
+										<span class="played">00:08</span><small>/</small>
+										<span class="duration">00:41</span>
+									</div>
+								</div>
+
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- //NavTour section Ends here -->
+
+		<div id="jquery_jplayer"></div>
+	</body>
+</html>

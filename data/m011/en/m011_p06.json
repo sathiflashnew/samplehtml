@@ -1,0 +1,25 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1":{
+				"text" :"The process of managing the temperature of the dough while it proofs is called dough management.",
+				"description" :""
+			} ,
+			"txtVar_2":{
+				"text" :"Dough management is a continuous process that begins with the QCC, continues during storage, and ends when it is actually baked into pizzas, breadsticks, or cheesesticks.",
+				"description" :""
+			} ,
+			"txtVar_3":{
+				"text" :"The lesser the time the dough remains at 40 °F (4.4 °C) or above, the slower the proofing process will be.",
+				"description" :""
+			} ,
+			
+			"transcript":{
+				"text" :["<p>Once the dough is proofed, it needs to be managed properly. The process of managing the temperature of the dough while it proofs is called dough management. The rate at which the dough rises is controlled by controlling the temperature, because dough proofs faster in warmer conditions and slower in cooler conditions.</p><p>Dough management is a continuous process that begins with the QCC, continues during storage, and ends when it is actually baked into pizzas, breadsticks, or cheesesticks.</p><p>The main principle of dough management is that the lesser the time the dough remains at 40 degrees Fahrenheit or above, the slower the proofing process will be.</p>"],
+				"description" :""
+			}
+
+		}
+	]
+}

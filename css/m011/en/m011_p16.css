@@ -1,0 +1,49 @@
+.ASmntHeader {
+}
+
+.KC_innerPadding{
+	position:relative;
+	
+}
+.date_img{
+    bottom: 0;
+    display: none;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: -8px;
+    width:287px;
+
+}
+.date_img img{
+	vertical-align:bottom;
+	width: 100%;
+}
+
+.with_img .date_img{display:table}
+.with_img .assessmentContent{
+	
+	padding: 20px 20px 20px 25px;
+	background:none;
+}
+.with_img .question_dot{
+	display:none;
+}
+.with_img .ASmntHeader{
+	background:#333333;
+}
+
+@media(max-width:350px) {
+.date_img{
+    width: 90%;
+
+}
+}
+
+@media(max-width:630px) {
+	.date_img{
+		   position: relative;
+			float: none;
+			margin-bottom: 15px;
+		}
+}

@@ -1,0 +1,63 @@
+
+
+
+HIVE COLOR SCHME
+===========================
+.shell_bg_orange
+.shell_bg_teal 
+.shell_bg_dark_grey 
+.shell_bg_Blue 
+.shell_bg_Green 
+.shell_bg_Yellow 
+.shell_bg_DullBlue 
+
+
+.clearFix [clearboth]
+
+
+DIVS FOR OBJECTS ALIGNING IN MIDDIL (NOTE:objects shuld be in display inline bloack)
+============================================================================================================
+
+.Common_tbl
+.Common_tbl_cell
+
+
+
+TYPES OF LISTING
+===========================
+.list_style_white
+
+.list_style_yellow
+
+.orderd_list
+
+.list_number_black
+
+
+PADDING FOR LEFT PADDING
+===========================
+.left_Side_inner_padding 
+
+
+
+SUBMIT
+===========================
+.submitBtnDeactive
+
+.Button_orange (COMMON SUMMIT BUTTON)
+
+
+
+INSTRUCTION TEST
+===========================
+.instruction_text
+
+
+FLOAT LEFT
+===========================
+.FL
+
+
+FLOAT RIGHT
+===========================
+.FR

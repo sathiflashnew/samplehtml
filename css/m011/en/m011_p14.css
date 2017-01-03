@@ -1,0 +1,67 @@
+.pageWrapper {
+	height: 100%;
+	width: 100%;
+}
+.contant_wrapper {
+	display: inline-block;
+	text-align: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+.contntpadding {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 50%;
+}
+.imgWrap {
+	width: 50%;
+	position:relative;
+}
+.imgWrap img {
+	vertical-align: top;
+	width:100%;
+}
+.hglt_1{
+	border:2px solid #ff0006;
+    height:27%;
+    left:32%;
+    position:absolute;
+    top:11%;
+    width:37%;
+}
+.hglt_2{
+	border:2px solid #ff0006;
+    height:27%;
+    left:19%;
+    position:absolute;
+    top:58%;
+    width:11%;
+}
+.hglt_3{
+	border:2px solid #ff0006;
+    height:27%;
+    left:32%;
+    position:absolute;
+    top: 58%;
+    width:38%;
+}
+ @media only screen and (max-width:375px) {
+.pageWrapper .common_table_Cell, .pageWrapper .common_table {
+	display: block;
+}
+.FL, .FR {
+	float: inherit;
+	float: initial;
+}
+.contntpadding {
+	width: 100%;
+}
+.imgWrap {
+	margin-top: 20px;
+	width: 100%;
+}
+}

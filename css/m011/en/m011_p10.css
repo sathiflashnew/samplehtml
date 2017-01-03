@@ -1,0 +1,247 @@
+.container {
+	overflow:hidden;
+}
+.slide {
+	position:absolute;
+	right:0; left:0; top:0; bottom:0;
+	display:block;
+}
+.slide_02 {
+	/*display:none;*/
+}
+.img_cntnr {
+	max-width:400px;
+	margin:30px auto 0;
+	text-align:center;
+}
+.img_cntnr img {
+	width:100%;
+	height:auto;
+}
+.container .common_table_Cell {
+	text-align: left;
+	vertical-align: top;
+}
+#accordian {
+	text-align: left;
+}
+.text_fl{ text-align:left;}
+
+.accordian {
+	list-style: none;
+	counter-reset: my-badass-counter;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	border: 1px solid #b4a8a5;
+	padding: 0 20px;
+}
+.dflt_brdr_color:after, .shell_bg_dark_grey:after {
+	/*border: none;*/
+}
+.acco_img {
+	float: right;
+	width: 25%;
+	margin-left: 15px;
+}
+.acco_img img {
+ 	display: block;
+	width:100%;
+}
+.accordian > li {
+	position: relative;
+	list-style: none;
+	margin: 0 0 1px 0;
+	padding-left: 0px;
+	counter-increment: my-badass-counter;
+	line-height: 36px;
+}
+.show_hide {
+	float: right;
+	border-style: solid;
+ 	width: 15px;
+	height: 15px;
+	top: 10px;
+	position: relative;
+	transform-origin: 50% 50% 0;
+	transition: all 0.3s ease 0s;
+	-webkit-transform-origin: 50% 50% 0;
+	-webkit-transition: all 0.3s ease 0s;
+}
+/*.show_hide:before, .show_hide:after {
+	content: " ";
+	position: absolute;
+	border-style: solid;
+	cursor: pointer;
+}
+.show_hide:before {
+	width: 11px;
+	height: 1px;
+	top: 6px;
+	left: 2px;
+	border-width: 0 0 1px 0;
+}
+.show_hide:after {
+	width: 1px;
+	border-width: 0 1px 0 0;
+	height: 11px;
+	top: 2px;
+	left: 6px;
+	transform-origin: 50% 50% 0;
+	transition: all 0.3s ease 0s;
+	-webkit-transform-origin: 50% 50% 0;
+	-webkit-transition: all 0.3s ease 0s;
+}*/
+.accordian > li Div.content {
+	background: #fff;
+	color: #6a514c;
+	padding: 10px 0px;
+	line-height: 20px;
+	border-top: 1px solid #b4a8a5;
+}
+.accordian > li Div.header {
+	background: #fff;
+	padding: 0px;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 4px 0 0;
+	text-transform: uppercase;
+}
+.accordian > li Div.header:after {
+	right: 0;
+	left: 0;
+	border-top-style: solid;
+	border-width: 4px 0 0;
+}
+.accordian > li Div.header:hover {
+	border-color: #c60000;
+}
+#accordian ol.accordian > li .header.active {
+
+}
+#accordian ol.accordian > li Div.active .show_hide {
+ 
+}
+#accordian ol.accordian > li Div.active .show_hide:before {
+	display: none;
+}
+.clear {
+	clear: both;
+}
+#accord_content_4 .list_style_yellow {
+	display: inline-block;
+}
+.content ul {
+	margin: 0;
+	padding: 0;
+ }
+.left_sctn {
+	float:left;
+	width:70%;
+}
+.acco_img4 {
+	float: left;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	width: 30%;
+}
+.acco_img6 {
+	float: right;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	width: 34%;
+}
+.content_5 {
+	position: relative;
+	min-height: 155px;
+}
+.content_5 {
+	text-align: center;
+}
+.content_5 img {
+	vertical-align: middle;
+	width: 100%;
+}
+.content_5text {
+	background: rgba(0,0,0,.78);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: left;
+}
+.content_5 p {
+	color: #fff;
+	font-size: 16px;
+	line-height: 25px;
+	margin: 15px;
+}
+.content_6text {
+	padding: 20px 0 20px 12px;
+}
+.padd20 {
+	padding: 20px !important;
+}
+.listHdng {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.list_style li ul {
+	margin-top: 5px;
+}
+.list_style li ul li {
+	margin-bottom: 5px;
+}
+.list_style li ul li:before {
+	width: 6px;
+	height: 6px;
+	top: 10px;
+	left: 5px;
+}
+#accordian ol.accordian > li div.dflt_brdr_color .Clicked {
+	transition: none;
+	transform-origin: 0 0;
+	top:0;
+	right:2px;
+}
+#accordian ol.accordian > li div.dflt_brdr_color .Clicked:after {
+	border:0;
+}
+#accordian ol.accordian > li div.dflt_brdr_color .Clicked:before {
+	display:block;
+	content: "\e617";
+	transform: rotate(0deg);
+	border:0;
+	
+}
+@media screen and (max-device-width: 768px) and (orientation: portrait) {
+#accord_content_6 {
+	padding: 20px 12px;
+}
+.content_6text {
+	padding: 0;
+}
+}
+@media only screen and (max-device-width: 720px) {
+.content_5 {
+	min-height: 0;
+}
+.accordian {
+	padding: 0 10px;
+}
+.acco_img {
+	width: 35%;
+}
+.left_sctn {
+	width:60%;
+}
+.container {
+	overflow:auto;
+}
+}
+@media only screen and (max-device-width: 360px) {
+	.acco_img {
+		margin-left: 5px;
+	}
+	
+}

@@ -1,0 +1,24 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1":{
+				"text" :"Interlocking trays prevent:",
+				"description" :""
+			} ,
+			"txtVar_2":{
+				"text" :"The top from sliding off the bottom",
+				"description" :""
+			} ,
+			"txtVar_3":{
+				"text" :"The dough from drying out",
+				"description" :""
+			} ,
+			"transcript":{
+				"text" :["<p>Let’s now focus on dough trays. Dough is sent to the restaurant using interlocking trays. Since the trays are interlocking, the top doesn’t slide off the bottom and helps prevent the dough from drying out. </p>"],
+				"description" :""
+			}
+
+		}
+	]
+}

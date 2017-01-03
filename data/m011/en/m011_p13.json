@@ -1,0 +1,28 @@
+{
+
+	"ExternalData": [
+		{
+		   "txtVar_1":{
+				"text" :"The color of the sticker on a dough tray indicates the size of the dough.",
+				"description" :""
+			} ,
+			"txtVar_2":{
+				"text" :"8&#8221; Pizza",
+				"description" :""
+			} ,
+			"txtVar_3":{
+				"text" :"10&#8221; Pizza",
+				"description" :""
+			} ,
+			"txtVar_4":{
+				"text" :"Talk with your trainer to know the color code followed at your restaurant.",
+				"description" :""
+			} ,
+			"transcript":{
+				"text" :["<p>You can identify the size of the dough by looking at the label of the dough tray. At Papa John’s, dough trays are labeled using color-coded stickers. The color of the sticker indicates the number and size of the dough. For example, hot pink stickers indicate that there are 15 dough balls in the tray, to be used for 8-inch pizzas; red stickers indicate that there are 12 dough balls in the tray, to be used for 10-inch pizzas. Please note that color codes and sizes can vary from one location to another. Please talk with your trainer to know the color code followed at your restaurant.</p>"],
+				"description" :""
+			}
+
+		}
+	]
+}

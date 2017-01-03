@@ -1,0 +1,20 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1":{
+				"text" :"The dough patties are positioned with enough space for them to proof and rise without touching one another.",
+				"description" :""
+			} ,
+			"txtVar_2":{
+				"text" :"Dough trays must always be elevated 6&rdquo; (15.25 cm)  off the ground, floor, or bottom of the walk-in.",
+				"description" :""
+			} ,
+			"transcript":{
+				"text" :["<p>Finally, let’s now move on to understand how dough trays are stored. The dough patties are positioned with enough space for them to proof and rise without touching one another inside the dough tray.</p><p>Food safety practices require that dough trays must always be elevated 6 inches off the ground, floor, or bottom of the walk-in, because they contain food. </p>"],
+				"description" :""
+			}
+
+		}
+	]
+}

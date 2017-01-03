@@ -1,0 +1,212 @@
+.pageWrapper {
+	height: 100%;
+	width: 100%;
+}
+.ntrowrapp {
+	position: relative;
+	width: 99%;
+	margin: 0 auto;
+	outline: 1px solid #000;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+.thumpwrap {
+	width: 10.94257854821235%;
+	/*border:1px solid #000;*/
+	outline: 1px solid #000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+.thumpwrap img {
+	vertical-align: bottom;
+	width: 100%;
+}
+.text_box {
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+}
+.text_box * {
+	font-family: Conv_HelveticaNeueLTStd-Cn_0;
+}
+.text_box small {
+	clear: both;
+	display: block;
+	margin-bottom: 5px;
+}
+.text_box p {
+	color: #fff;
+	font-size: 0.650em;
+}
+.course_durtion {
+	font-size: 14px;
+	margin-bottom: 0;
+	padding: 5px;
+	text-align: right;
+}
+
+.Arabic .course_durtion {
+	text-align: left;
+}
+/*.course_durtion:after {
+	clear: both;
+	content: "Please ensure that you have enough time allotted to complete this course.";
+	display: block;
+	margin-top: 6px;
+}*/
+.txtVarIntro.align-right {
+    font-size: 14px;
+	
+}
+
+p.txtVarIntro{margin:5px!Important;}
+.Arabic .course_durtion, .Arabic .txtVarIntro.align-right, .Arabic .FRtext.course_durtion{
+	    float: none;
+		margin-top: 0;
+		text-align: right;
+}
+.Arabic .time{
+	right: auto;
+}
+.txtVarnote.align-right {
+    font-size: 15px;
+	/* font-weight:bold; */
+}
+.icon-round27:before {
+	font-size: 30px;
+	line-height: 17px;
+	position: relative;
+	top: 7px;
+	padding-right: 10px;
+}
+
+.DollarDisclaimer{
+	text-align: left;
+	border:thin solid #b3a19d;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding:8px;
+	clear:both;
+}
+.DollarDisclaimer .disImg{
+	width: 8%;
+	display: inline-block;
+	margin-right:2%;
+}
+.DollarDisclaimer .disText{
+	font-size: 14px;
+	display: inline-block;
+	width:89%;
+}
+.DollarDisclaimer  > * {
+    vertical-align: middle;
+}
+@media only screen and (max-width:800px) and (orientation:portrait) {
+.text_box {
+	font-size: 15px;
+	line-height: 35px;
+}
+.ntrowrapp {
+	width: 100%;
+	display: none;
+}
+.thumpwrap {
+	width: 33.3%;
+}
+.ntrowrapp {
+	display: inline-block;
+	text-align: center;
+}
+.text_box {
+	clear: both;
+	display: flex;
+	height: 126px;
+	position: initial;
+	width: 100%;
+}
+.text_box small {
+	clear: initial;
+	display: initial;
+	margin-bottom: initial;
+}
+/*.course_durtion {
+	margin-bottom: 50px;
+	line-height: 15px;
+}*/
+}
+@media (max-device-width:480px) {
+.ntrowrapp.Solid-BG .text_box {
+	font-size: 15px;
+}
+
+}
+@media (max-width: 480px) {
+	.DollarDisclaimer .disImg {
+	    display: block;
+	    margin: 0 auto;
+	    width: 62px;
+	}
+	
+	.DollarDisclaimer .disText {
+	    display: block;
+	    width: auto;
+	}
+}
+
+ @media only screen and (max-width: 360px) {
+.text_box {
+	font-size: 15px;
+	line-height: 35px;
+}
+.ntrowrapp {
+	width: 99%;
+	display: none;
+}
+.ntrowrapp {
+	width: 99%;
+}
+.thumpwrap {
+	width: 33.3%;
+}
+.ntrowrapp {
+	display: inline-block;
+	text-align: center;
+}
+.text_box {
+	clear: both;
+	display: flex;
+	height: 90px;
+	position: initial;
+	width: 100%;
+}
+.text_box small {
+	clear: initial;
+	display: initial;
+	margin-bottom: initial;
+}
+}
+
+ @media only screen and (max-width: 800px) {
+ 		.course_durtion,.txtVarIntro.align-right,.FRtext.course_durtion{
+ 			text-align: left;
+ 			float: left;
+ 			clear: left;
+ 		}
+ 		.FRtext.course_durtion {
+		    margin-bottom: 0;
+		    padding-top: 0;
+		}
+ }

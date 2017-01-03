@@ -1,0 +1,152 @@
+.pageWrapper {
+	width: 100%;
+	height: 100%;
+}
+.animtn_wrap {
+	min-height: 293px;
+	position: relative;
+}
+.objectiveWrapper {
+	position: relative;
+	text-align: center;
+	position: absolute;
+}
+.display-none {
+	display: none;
+}
+.lft_section, .objective_imgwrap {
+	width: 50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.objective_imgwrap img {
+	float: left;
+	width: 100%;
+}
+.lft_section {
+	padding: 20px;
+	text-align: left;
+}
+.last-box {
+	border: none;
+	width: 100%;/*	left:15%;*/
+}
+.image-03-cover {
+	max-width:100%;
+	display: inline-block;
+	position: relative;
+}
+.box {
+	width: 33.33333333333333%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 5px;
+}
+.mid-box {
+}
+.image-box, .text-box {
+	height: 155px;
+	width: 100%;
+	text-align: center;
+}
+.text-box {
+	color: white;
+}
+.image-box {
+	border: #6a514c 1px solid;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.image-box img {
+	height: 89%;
+}
+.image-box:before, .text-box:before {
+	content: ' ';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+.image-box img, .text-box span {
+	display: inline-block;
+	vertical-align: middle;
+}
+.objectiveWrapper-inner {
+	width: 100%;
+}
+.text-box {
+	padding: 0 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.text-box strong {
+	font-family: Conv_HelveticaNeueLTStd-Cn_0;
+	color: #fff;
+	display: inline-block;
+}
+@media(max-width:667px) {
+
+.objectiveWrapper {
+	border: none;
+	min-height: auto;
+	height: 100%;
+	width:100%;
+}
+.lft_section, .objective_imgwrap {
+	width: 100%;
+}
+
+
+.pageWrapper .common_table_Cell, .pageWrapper .common_table {
+	display: block;
+}
+.box {
+	padding: 5px 0;
+	width: 100%;
+}
+.image-box img {
+	height: 65%;
+}
+.image-box, .text-box {
+	float: left;
+	height: 155px;
+	text-align: center;
+	width: 50%;
+}
+.image-03-cover {
+	max-width: 100%;
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+/*---Sebin ---*/
+	.animtn_wrap{
+		height: 100%;
+	}
+	.objective_imgwrap {
+		bottom: 20px;
+		position: absolute;
+	}
+
+}
+
+ @media only screen and (min-width: 460px) and (max-width: 767px) and (orientation:landscape) {
+ 
+	.objective_imgwrap {
+		
+		left: 0;
+		margin: auto;
+		position: absolute;
+		right: 0;
+		width: 350px;
+	}
+.objective_imgwrap img {
+	float: none;
+	width: 80%;
+}
+
+ }

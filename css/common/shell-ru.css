@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.exitPopupWrap{
+	width: 385px;
+}
+.exit li{
+	width: 120px;
+}
+
+@media only screen and (max-width:720px) {
+.ShellMenuWrapper ol li a{ height:auto; min-height:53px;}
+}
+span.FB_icon.icon-wrong::after {
+  content: ",";
+}
+
+@media screen and (max-width: 400px) {
+	.exitPopupWrap{
+		width: 300px;
+	}
+.exit li {
+  width: 87px;
+  font-size: 11px;
+	display:inline-block !important;
+	float:left !important;
+}
+	
+
+}
+

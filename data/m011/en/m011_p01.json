@@ -1,0 +1,23 @@
+{
+
+	"ExternalData": [
+		{
+			"txtVar_1": {
+				"text": "Types  <span class='br_span'></span>   of cars",
+				"description": ""
+			} ,
+			"txtVar_2": {
+				"text": "Estimated Duration: 14 minutes",
+				"description": ""
+			} ,
+			"txtVarIntro": {
+				"text": "Please ensure that you have enough time allotted to complete this course.",
+				"description": ""
+			} ,
+			"transcript": {
+				"text": ["<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt euismod ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean blandit bibendum sapien, a iaculis ante placerat pellentesque. Aliquam finibus tristique fermentum. Vestibulum quis mi sit amet nisi dictum congue.</p>"],
+				"description": ""
+			}
+		}
+	]
+}
